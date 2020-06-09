@@ -1,0 +1,42 @@
+.alert {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #b40b0b; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.internaltext12 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif
+}
+.internallink12 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif
+}
+.internaltext13 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif
+}
+.internaltext18 {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #ffffff; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif
+}
+.internaltext11 {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif
+}
+.internaltext10 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.header13 {
+	FONT-SIZE: 13px; COLOR: #0000cc; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.header11 {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.headerw {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A {
+	TEXT-DECORATION: none
+}
+.footer {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: verdana,arial,verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+BODY {
+	BACKGROUND-IMAGE: url(../images/side_bkgd.gif); MARGIN: 5px 0px
+}
+.bg1 {
+	BACKGROUND-COLOR: #a60000
+}

@@ -1,0 +1,2055 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0060)http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS -->
+<HTML><HEAD><TITLE>Solve Sudoku (Without even thinking!)</TITLE>
+<STYLE type=text/css media=all>@import url( /static/css/style.css );
+</STYLE>
+
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<META http-equiv=imagetoolbar content=no>
+<SCRIPT src="Solve Sudoku (Without even thinking!)_files/prototype.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="Solve Sudoku (Without even thinking!)_files/scriptaculous.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="Solve Sudoku (Without even thinking!)_files/blox.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="Solve Sudoku (Without even thinking!)_files/instruct.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="Solve Sudoku (Without even thinking!)_files/imagespot.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="Solve Sudoku (Without even thinking!)_files/library.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="Solve Sudoku (Without even thinking!)_files/comment.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="Solve Sudoku (Without even thinking!)_files/Tooltip.js" 
+type=text/javascript></SCRIPT>
+<LINK title=comments href="comments.rss" type=application/rss+xml rel=alternate>
+<STYLE type=text/css>DIV#container {
+	WIDTH: 960px; BACKGROUND-COLOR: #fff
+}
+DIV#wrapper {
+	FLOAT: left; WIDTH: 100%
+}
+DIV#content {
+	MARGIN: 0px 200px
+}
+DIV#navigation {
+	BACKGROUND: #fff; FLOAT: left; MARGIN-LEFT: -960px; WIDTH: 190px
+}
+DIV#extra {
+	BACKGROUND: #fff; FLOAT: left; MARGIN-LEFT: -190px; WIDTH: 186px
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2900.2912" name=GENERATOR></HEAD>
+<BODY>
+<DIV 
+style="BORDER-RIGHT: pink 0px solid; BORDER-TOP: pink 0px solid; MARGIN-BOTTOM: 5px; BORDER-LEFT: pink 0px solid; BORDER-BOTTOM: pink 0px solid"><IMG 
+style="WIDTH: 100%; HEIGHT: 86px" alt="" 
+src="Solve Sudoku (Without even thinking!)_files/head_bar.gif"><A 
+href="http://www.instructables.com/home"><IMG 
+style="LEFT: 0px; POSITION: absolute; TOP: 0px" alt="" src="" border=0></A>
+<DIV id=MemberID style="DISPLAY: none"></DIV><SPAN 
+style="RIGHT: 5px; POSITION: absolute; TOP: 6px">New to Instructables? <A 
+style="PADDING-LEFT: 5px" 
+href="http://www.instructables.com/account/register">Create a Free 
+Account</A><SPAN style="PADDING-RIGHT: 8px; PADDING-LEFT: 8px">|</SPAN><A 
+href="http://www.instructables.com/account/login">Login</A></SPAN><IMG 
+style="BORDER-RIGHT: white 4px solid; RIGHT: 0px; POSITION: absolute; TOP: 24px" 
+alt="" src="Solve Sudoku (Without even thinking!)_files/head_squiggle.gif">
+<DIV id=navexplore style="RIGHT: 43px; POSITION: absolute; TOP: 28px"><A 
+href="http://www.instructables.com/tag/type:instructable/">explore</A></DIV>
+<DIV style="RIGHT: 100px; POSITION: absolute; TOP: 61px">
+<FORM id=PageSearch action=/search method=post>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD><IMG alt="" 
+      src="Solve Sudoku (Without even thinking!)_files/counter.gif"></TD>
+    <TD><INPUT 
+      style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px; BORDER-RIGHT-WIDTH: 0px" 
+      type=image src="Solve Sudoku (Without even thinking!)_files/pixel.gif" 
+      value="" name=x></TD>
+    <TD style="PADDING-RIGHT: 4px"><INPUT class=inputBorder name=text></TD>
+    <TD><A class=button 
+      onclick="document.getElementById('PageSearch').submit(); return false;; return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">search</A></TD></TR></TBODY></TABLE></FORM></DIV></DIV>
+<DIV style="MARGIN-LEFT: 5px">
+<DIV style="MARGIN: 5px 15px 5px 0px">
+<DIV class=title style="PADDING-LEFT: 2px; MARGIN-BOTTOM: 4px">
+<DIV style="FLOAT: right">intro </DIV>
+<H2>Solve Sudoku (Without even thinking!)</H2></DIV>
+<TABLE class=stepsContainer cellPadding=0 width="100%">
+  <TBODY>
+  <TR vAlign=top>
+    <TD class=steps>
+      <DIV><IMG class=selectedStep alt="" 
+      src="Solve Sudoku (Without even thinking!)_files/allsteps.gif"></DIV>
+      <DIV class="tooltipByID ttid_EJLUBKN48JEPD7QXGR"><A 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/"><SPAN 
+      style="PADDING-LEFT: 3px">intro</SPAN><IMG alt="" 
+      src="Solve Sudoku (Without even thinking!)_files/F43P59GACZEPD7QXFF.tiny.png"></A></DIV>
+      <DIV class="tooltipByID ttid_ENUUEF7K3REPD7QXUD"><A 
+      href="http://www.instructables.com/id/ENUUEF7K3REPD7QXUD/"><SPAN>1</SPAN><IMG 
+      alt="" 
+      src="Solve Sudoku (Without even thinking!)_files/F86PKFR1XLEPD7QXJF.tiny.png"></A></DIV>
+      <DIV class="tooltipByID ttid_ENWXG30D3ZEPD7QXUX"><A 
+      href="http://www.instructables.com/id/ENWXG30D3ZEPD7QXUX/"><SPAN>2</SPAN><IMG 
+      alt="" 
+      src="Solve Sudoku (Without even thinking!)_files/FEP9TOC09ZEPD7QXIT.tiny.png"></A></DIV>
+      <DIV class="tooltipByID ttid_EYDYBH0MQCEPD7QXWO"><A 
+      href="http://www.instructables.com/id/EYDYBH0MQCEPD7QXWO/"><SPAN>3</SPAN><IMG 
+      alt="" 
+      src="Solve Sudoku (Without even thinking!)_files/FL6GNNWWQIEPD7QXVC.tiny.png"></A></DIV>
+      <DIV class="tooltipByID ttid_E99XBBRY3QEPD7QXX7"><A 
+      href="http://www.instructables.com/id/E99XBBRY3QEPD7QXX7/"><SPAN>4</SPAN><IMG 
+      alt="" 
+      src="Solve Sudoku (Without even thinking!)_files/FWXQK087ISEPD7QXI7.tiny.png"></A></DIV>
+      <DIV class="tooltipByID ttid_EKZCB1BA91EPD7QXXQ"><A 
+      href="http://www.instructables.com/id/EKZCB1BA91EPD7QXXQ/"><SPAN>5</SPAN><IMG 
+      alt="" 
+      src="Solve Sudoku (Without even thinking!)_files/FURJGXR0GNEPD7QXHL.tiny.png"></A></DIV>
+      <DIV class="tooltipByID ttid_E03KDLAEJ6EPD7QXZQ"><A 
+      href="http://www.instructables.com/id/E03KDLAEJ6EPD7QXZQ/"><SPAN>6</SPAN><IMG 
+      alt="" 
+      src="Solve Sudoku (Without even thinking!)_files/F829RG3OX0EPD7QXY9.tiny.png"></A></DIV>
+      <DIV class="tooltipByID ttid_E6YQZOKFUVEPD7QY09"><A 
+      href="http://www.instructables.com/id/E6YQZOKFUVEPD7QY09/"><SPAN>7</SPAN><IMG 
+      alt="" 
+      src="Solve Sudoku (Without even thinking!)_files/FCCL6G26YUEPD7QXPL.tiny.png"></A></DIV>
+      <DIV class="tooltipByID ttid_EK3N4H7EYHEPD7QY0S"><A 
+      href="http://www.instructables.com/id/EK3N4H7EYHEPD7QY0S/"><SPAN>8</SPAN><IMG 
+      alt="" 
+      src="Solve Sudoku (Without even thinking!)_files/FOIAE7CR4GEPD7QXOZ.tiny.png"></A></DIV>
+      <DIV class="tooltipByID ttid_ELGECX4DYHEPD7QY1B"><A 
+      href="http://www.instructables.com/id/ELGECX4DYHEPD7QY1B/"><SPAN>9</SPAN><IMG 
+      alt="" 
+      src="Solve Sudoku (Without even thinking!)_files/FPF211N9O8EPD7QXNR.tiny.png"></A></DIV>
+      <DIV class="tooltipByID ttid_EML677PQM1EPD7QY1U"><A 
+      href="http://www.instructables.com/id/EML677PQM1EPD7QY1U/"><SPAN>10</SPAN><IMG 
+      alt="" 
+      src="Solve Sudoku (Without even thinking!)_files/F67QSDFGFZEPD7QXN5.tiny.png"></A></DIV></TD>
+    <TD vAlign=top align=right>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD class="tooltipByID ttid_ENUUEF7K3REPD7QXUD"><A class=button 
+            onclick="" 
+            href="http://www.instructables.com/id/ENUUEF7K3REPD7QXUD/">next&nbsp;»</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV id=container>
+<DIV id=wrapper>
+<DIV id=content><!-- google_ad_section_start -->
+<DIV><A href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/"><SPAN 
+class=stepLabel style="PADDING-RIGHT: 5px">intro</SPAN><SPAN 
+class=stepTitle>Solve Sudoku (Without even thinking!)</SPAN></A></DIV>
+<DIV class=txt>This instructable provides step by step instructions to complete 
+a Sudoku puzzle by simple process of elimination. <BR><BR>One of the things I 
+that drove me crazy about Sudoku is how difficult it is to return to a puzzle if 
+you get interupted. This system allows you to walk away from a puzzle at any 
+time and return exactly where you left off. <BR></DIV>
+<TABLE width=10>
+  <TBODY>
+  <TR>
+    <TD>
+      <DIV id=spot805729 
+      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative"></DIV>
+      <SCRIPT type=text/javascript>
+var spotspot805729 = new ImageSpot( 'spot805729', { loadID: 'F43P59GACZEPD7QXFF', loadIMG: 'http://static2.instructables.com/pub/F43/P59G/F43P59GACZEPD7QXFF.medium.jpg', showInfo: true, size: 'MEDIUM' } ); 
+new ImageInfo(  spotspot805729, {"imageID":"F43P59GACZEPD7QXFF","name":"dscn1266.jpg","imageURL":"http://static2.instructables.com/pub/F43/P59G/F43P59GACZEPD7QXFF.medium.jpg","showURL":"/id/F43P59GACZEPD7QXFF/","dims":"(640x480)"} );
+new ImageInfo(  spotspot805729, {"imageID":"FMHLN2ID0EEPD7QXEE","name":"blankpuzzle.jpg","imageURL":"http://static2.instructables.com/pub/FMH/LN2I/FMHLN2ID0EEPD7QXEE.medium.jpg","showURL":"/id/FMHLN2ID0EEPD7QXEE/","dims":"(504x506)"} );
+</SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<DIV class=spotThumbs style="MARGIN-TOP: 4px; MARGIN-BOTTOM: 4px"><A 
+onclick="ImageSpots.show( 'spot805729', 'F43P59GACZEPD7QXFF' ); return false;" 
+href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/F43P59GACZEPD7QXFF.thumb.jpg"></A><A 
+onclick="ImageSpots.show( 'spot805729', 'FMHLN2ID0EEPD7QXEE' ); return false;" 
+href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/FMHLN2ID0EEPD7QXEE.thumb.jpg"></A></DIV>
+<DIV style="MARGIN-TOP: 30px">
+<DIV><A href="http://www.instructables.com/id/ENUUEF7K3REPD7QXUD/"><SPAN 
+class=stepLabel style="PADDING-RIGHT: 5px">step 1</SPAN><SPAN 
+class=stepTitle>What you need to begin</SPAN></A></DIV>
+<DIV class=txt>You need:<BR><BR>1. A sudoku puzzle. I enlarged this one (which 
+was the puzzle that appeared on Sudoku.com on July 8, 2006.) to make photography 
+easier. I find this system works better on larger puzzles. <BR><BR>2. A pencil, 
+Not a pen. A pencil. <BR><BR>3. An eraser. <BR></DIV>
+<TABLE width=10>
+  <TBODY>
+  <TR>
+    <TD>
+      <DIV id=spot805730 
+      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative"></DIV>
+      <SCRIPT type=text/javascript>
+var spotspot805730 = new ImageSpot( 'spot805730', { loadID: 'F86PKFR1XLEPD7QXJF', loadIMG: 'http://static2.instructables.com/pub/F86/PKFR/F86PKFR1XLEPD7QXJF.medium.jpg', showInfo: true, size: 'MEDIUM' } ); 
+new ImageInfo(  spotspot805730, {"imageID":"F86PKFR1XLEPD7QXJF","name":"dscn1251.jpg","imageURL":"http://static2.instructables.com/pub/F86/PKFR/F86PKFR1XLEPD7QXJF.medium.jpg","showURL":"/id/F86PKFR1XLEPD7QXJF/","dims":"(640x480)"} );
+</SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<DIV style="MARGIN-TOP: 5px"><A 
+href="http://www.instructables.com/id/ENUUEF7K3REPD7QXUD/#DISCUSS">comments 
+(0)</A></DIV></DIV>
+<DIV style="MARGIN-TOP: 30px">
+<DIV><A href="http://www.instructables.com/id/ENWXG30D3ZEPD7QXUX/"><SPAN 
+class=stepLabel style="PADDING-RIGHT: 5px">step 2</SPAN><SPAN 
+class=stepTitle>Fill in the "Missing Grid"</SPAN></A></DIV>
+<DIV class=txt>You see, a Sudoku puzzle is missing a grid. Once you put in this 
+grid, it is sooo much easier. <BR><BR>Enter the numbers 1 through 9 in a 
+"tic-tac-toe" pattern in every blank box. <BR><BR></DIV>
+<TABLE width=10>
+  <TBODY>
+  <TR>
+    <TD>
+      <DIV id=spot805731 
+      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative"></DIV>
+      <SCRIPT type=text/javascript>
+var spotspot805731 = new ImageSpot( 'spot805731', { loadID: 'FEP9TOC09ZEPD7QXIT', loadIMG: 'http://static2.instructables.com/pub/FEP/9TOC/FEP9TOC09ZEPD7QXIT.medium.jpg', showInfo: true, size: 'MEDIUM' } ); 
+new ImageInfo(  spotspot805731, {"imageID":"FEP9TOC09ZEPD7QXIT","name":"dscn1254.jpg","imageURL":"http://static2.instructables.com/pub/FEP/9TOC/FEP9TOC09ZEPD7QXIT.medium.jpg","showURL":"/id/FEP9TOC09ZEPD7QXIT/","dims":"(640x480)"} );
+</SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<DIV style="MARGIN-TOP: 5px"><A 
+href="http://www.instructables.com/id/ENWXG30D3ZEPD7QXUX/#DISCUSS">comments 
+(0)</A></DIV></DIV>
+<DIV style="MARGIN-TOP: 30px">
+<DIV><A href="http://www.instructables.com/id/EYDYBH0MQCEPD7QXWO/"><SPAN 
+class=stepLabel style="PADDING-RIGHT: 5px">step 3</SPAN><SPAN 
+class=stepTitle>Erase "Across"</SPAN></A></DIV>
+<DIV class=txt>For each number that is preprinted in the puzzle, you will start 
+erasing that number from the appropriate grids you just wrote in. <BR><BR>So the 
+first number (in the upper right corner) is a "6". Erase every other "6" in that 
+row. Once you have completed the erasing, draw a line across the top of the 
+number to indicate that you have cleared out that line.<BR></DIV>
+<TABLE width=10>
+  <TBODY>
+  <TR>
+    <TD>
+      <DIV id=spot805732 
+      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative"></DIV>
+      <SCRIPT type=text/javascript>
+var spotspot805732 = new ImageSpot( 'spot805732', { loadID: 'FL6GNNWWQIEPD7QXVC', loadIMG: 'http://static2.instructables.com/pub/FL6/GNNW/FL6GNNWWQIEPD7QXVC.medium.jpg', showInfo: true, size: 'MEDIUM' } ); 
+new ImageInfo(  spotspot805732, {"imageID":"FL6GNNWWQIEPD7QXVC","name":"dscn1255.jpg","imageURL":"http://static2.instructables.com/pub/FL6/GNNW/FL6GNNWWQIEPD7QXVC.medium.jpg","showURL":"/id/FL6GNNWWQIEPD7QXVC/","dims":"(640x480)"} );
+</SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<DIV style="MARGIN-TOP: 5px"><A 
+href="http://www.instructables.com/id/EYDYBH0MQCEPD7QXWO/#DISCUSS">comments 
+(0)</A></DIV></DIV>
+<DIV style="MARGIN-TOP: 30px">
+<DIV><A href="http://www.instructables.com/id/E99XBBRY3QEPD7QXX7/"><SPAN 
+class=stepLabel style="PADDING-RIGHT: 5px">step 4</SPAN><SPAN 
+class=stepTitle>Erase Down</SPAN></A></DIV>
+<DIV class=txt>Now, for that same number "6", erase the corresponding "6"'s in 
+every box in the same column. Once you have completed erasing, draw a line down 
+the edge of the number to indicate that you have completed this step. <BR></DIV>
+<TABLE width=10>
+  <TBODY>
+  <TR>
+    <TD>
+      <DIV id=spot805733 
+      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative"></DIV>
+      <SCRIPT type=text/javascript>
+var spotspot805733 = new ImageSpot( 'spot805733', { loadID: 'FWXQK087ISEPD7QXI7', loadIMG: 'http://static2.instructables.com/pub/FWX/QK08/FWXQK087ISEPD7QXI7.medium.jpg', showInfo: true, size: 'MEDIUM' } ); 
+new ImageInfo(  spotspot805733, {"imageID":"FWXQK087ISEPD7QXI7","name":"dscn1256.jpg","imageURL":"http://static2.instructables.com/pub/FWX/QK08/FWXQK087ISEPD7QXI7.medium.jpg","showURL":"/id/FWXQK087ISEPD7QXI7/","dims":"(640x480)"} );
+</SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<DIV style="MARGIN-TOP: 5px"><A 
+href="http://www.instructables.com/id/E99XBBRY3QEPD7QXX7/#DISCUSS">comments 
+(0)</A></DIV></DIV>
+<DIV style="MARGIN-TOP: 30px">
+<DIV><A href="http://www.instructables.com/id/EKZCB1BA91EPD7QXXQ/"><SPAN 
+class=stepLabel style="PADDING-RIGHT: 5px">step 5</SPAN><SPAN 
+class=stepTitle>Erase "All Around"</SPAN></A></DIV>
+<DIV class=txt>Ok, last step for the first number "6" Erase all the "6"s in the 
+same quadrant. Then draw a circle around the number to indicate you have 
+completed this step. <BR><BR>Now you have eliminated all the sixes from all the 
+other blocks. That indicates that a Six canot appear in any of those blocks. 
+<BR><BR>Keep going, repeat those same three steps for all the other pre-printed 
+numbers in the puzzle. <BR></DIV>
+<TABLE width=10>
+  <TBODY>
+  <TR>
+    <TD>
+      <DIV id=spot805734 
+      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative"></DIV>
+      <SCRIPT type=text/javascript>
+var spotspot805734 = new ImageSpot( 'spot805734', { loadID: 'FURJGXR0GNEPD7QXHL', loadIMG: 'http://static2.instructables.com/pub/FUR/JGXR/FURJGXR0GNEPD7QXHL.medium.jpg', showInfo: true, size: 'MEDIUM' } ); 
+new ImageInfo(  spotspot805734, {"imageID":"FURJGXR0GNEPD7QXHL","name":"dscn1257.jpg","imageURL":"http://static2.instructables.com/pub/FUR/JGXR/FURJGXR0GNEPD7QXHL.medium.jpg","showURL":"/id/FURJGXR0GNEPD7QXHL/","dims":"(640x480)"} );
+</SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<DIV style="MARGIN-TOP: 5px"><A 
+href="http://www.instructables.com/id/EKZCB1BA91EPD7QXXQ/#DISCUSS">comments 
+(0)</A></DIV></DIV>
+<DIV style="MARGIN-TOP: 30px">
+<DIV><A href="http://www.instructables.com/id/E03KDLAEJ6EPD7QXZQ/"><SPAN 
+class=stepLabel style="PADDING-RIGHT: 5px">step 6</SPAN><SPAN 
+class=stepTitle>Repeat for all the pre-printed numbers</SPAN></A></DIV>
+<DIV class=txt>Just repeat thos three steps for each number that was printed in 
+the puzzle. The purpose of the down, across, and circle marks on each number is 
+to provide for any interruption that may occur when solving the puzzle. By 
+drawling those lines you can always tell exactly where you left off. If the 
+number has all three marks, you can be sure that all of the corresponding 
+numbers have been eliminated from the puzzle. YOu can effectively forget about 
+that block now. <BR><BR>Let's see what the result of all that erasing was. 
+<BR></DIV>
+<TABLE width=10>
+  <TBODY>
+  <TR>
+    <TD>
+      <DIV id=spot805735 
+      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative"></DIV>
+      <SCRIPT type=text/javascript>
+var spotspot805735 = new ImageSpot( 'spot805735', { loadID: 'F829RG3OX0EPD7QXY9', loadIMG: 'http://static2.instructables.com/pub/F82/9RG3/F829RG3OX0EPD7QXY9.medium.jpg', showInfo: true, size: 'MEDIUM' } ); 
+new ImageInfo(  spotspot805735, {"imageID":"F829RG3OX0EPD7QXY9","name":"dscn1258.jpg","imageURL":"http://static2.instructables.com/pub/F82/9RG3/F829RG3OX0EPD7QXY9.medium.jpg","showURL":"/id/F829RG3OX0EPD7QXY9/","dims":"(640x480)"} );
+</SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<DIV style="MARGIN-TOP: 5px"><A 
+href="http://www.instructables.com/id/E03KDLAEJ6EPD7QXZQ/#DISCUSS">comments 
+(0)</A></DIV></DIV>
+<DIV style="MARGIN-TOP: 30px">
+<DIV><A href="http://www.instructables.com/id/E6YQZOKFUVEPD7QY09/"><SPAN 
+class=stepLabel style="PADDING-RIGHT: 5px">step 7</SPAN><SPAN 
+class=stepTitle>Locate Answers</SPAN></A></DIV>
+<DIV class=txt>By process of elimination you will have done so much erasing in 
+some blocks that only one number is left. Guess what. THat is the answer for 
+that block. Congratulate yourself.<BR><BR>Write that number large in the block, 
+then treat it like a preprinted number. Eliminate all the across, down and 
+around numbers as you have already done so many times before. <BR><BR>In this 
+image, the red pen points point to all the answers that were provided just by 
+doing the initial erasing. <BR><BR>We have not yet begun to think!<BR></DIV>
+<TABLE width=10>
+  <TBODY>
+  <TR>
+    <TD>
+      <DIV id=spot805736 
+      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative"></DIV>
+      <SCRIPT type=text/javascript>
+var spotspot805736 = new ImageSpot( 'spot805736', { loadID: 'FCCL6G26YUEPD7QXPL', loadIMG: 'http://static2.instructables.com/pub/FCC/L6G2/FCCL6G26YUEPD7QXPL.medium.jpg', showInfo: true, size: 'MEDIUM' } ); 
+new ImageInfo(  spotspot805736, {"imageID":"FCCL6G26YUEPD7QXPL","name":"dscn1262.jpg","imageURL":"http://static2.instructables.com/pub/FCC/L6G2/FCCL6G26YUEPD7QXPL.medium.jpg","showURL":"/id/FCCL6G26YUEPD7QXPL/","dims":"(640x480)"} );
+</SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<DIV style="MARGIN-TOP: 5px"><A 
+href="http://www.instructables.com/id/E6YQZOKFUVEPD7QY09/#DISCUSS">comments 
+(0)</A></DIV></DIV>
+<DIV style="MARGIN-TOP: 30px">
+<DIV><A href="http://www.instructables.com/id/EK3N4H7EYHEPD7QY0S/"><SPAN 
+class=stepLabel style="PADDING-RIGHT: 5px">step 8</SPAN><SPAN 
+class=stepTitle>Other kinds of eliminations. </SPAN></A></DIV>
+<DIV class=txt>You won't always be so lucky. Not every time will you end up 
+erasing all the numbers but one in a block. If that is the case, then you peruse 
+the puzzle to find eliminations. <BR><BR>First look down each column. If you 
+find a number that only appears in one block in a column. That is the answer for 
+that block. <BR><BR>In this picture, the pen point points to a three. That is 
+the only three in that column, so that must be where it goes. <BR><BR>Write it 
+large, then treat it like a pre-printed number. See ... this isn't thinking. 
+This is EASY.<BR></DIV>
+<TABLE width=10>
+  <TBODY>
+  <TR>
+    <TD>
+      <DIV id=spot805737 
+      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative"></DIV>
+      <SCRIPT type=text/javascript>
+var spotspot805737 = new ImageSpot( 'spot805737', { loadID: 'FOIAE7CR4GEPD7QXOZ', loadIMG: 'http://static2.instructables.com/pub/FOI/AE7C/FOIAE7CR4GEPD7QXOZ.medium.jpg', showInfo: true, size: 'MEDIUM' } ); 
+new ImageInfo(  spotspot805737, {"imageID":"FOIAE7CR4GEPD7QXOZ","name":"dscn1263.jpg","imageURL":"http://static2.instructables.com/pub/FOI/AE7C/FOIAE7CR4GEPD7QXOZ.medium.jpg","showURL":"/id/FOIAE7CR4GEPD7QXOZ/","dims":"(640x480)"} );
+</SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<DIV style="MARGIN-TOP: 5px"><A 
+href="http://www.instructables.com/id/EK3N4H7EYHEPD7QY0S/#DISCUSS">comments 
+(0)</A></DIV></DIV>
+<DIV style="MARGIN-TOP: 30px">
+<DIV><A href="http://www.instructables.com/id/ELGECX4DYHEPD7QY1B/"><SPAN 
+class=stepLabel style="PADDING-RIGHT: 5px">step 9</SPAN><SPAN 
+class=stepTitle>Look Around a quadrant. </SPAN></A></DIV>
+<DIV class=txt>I know, they aren't really quadrants, but you know what I mean, 
+don't you?<BR><BR>If you've looked across the columns, and across the rows and 
+there are all duplicates, then look in the group. If there is one number in the 
+group that only appears in one block, then it's your answer.<BR><BR>See... There 
+is no guessing in Sudoku. One of these situations has to occur. You just need to 
+find them. <BR><BR>IN this picture the 5 only appears in one block in the group. 
+It goes there. <BR><BR>Write it big, then treat it like a pre-printed number. 
+<BR><BR>See where we're going, here?<BR></DIV>
+<TABLE width=10>
+  <TBODY>
+  <TR>
+    <TD>
+      <DIV id=spot805738 
+      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative"></DIV>
+      <SCRIPT type=text/javascript>
+var spotspot805738 = new ImageSpot( 'spot805738', { loadID: 'FPF211N9O8EPD7QXNR', loadIMG: 'http://static2.instructables.com/pub/FPF/211N/FPF211N9O8EPD7QXNR.medium.jpg', showInfo: true, size: 'MEDIUM' } ); 
+new ImageInfo(  spotspot805738, {"imageID":"FPF211N9O8EPD7QXNR","name":"dscn1265.jpg","imageURL":"http://static2.instructables.com/pub/FPF/211N/FPF211N9O8EPD7QXNR.medium.jpg","showURL":"/id/FPF211N9O8EPD7QXNR/","dims":"(640x480)"} );
+</SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<DIV style="MARGIN-TOP: 5px"><A 
+href="http://www.instructables.com/id/ELGECX4DYHEPD7QY1B/#DISCUSS">comments 
+(1)</A></DIV></DIV>
+<DIV style="MARGIN-TOP: 30px">
+<DIV><A href="http://www.instructables.com/id/EML677PQM1EPD7QY1U/"><SPAN 
+class=stepLabel style="PADDING-RIGHT: 5px">step 10</SPAN><SPAN 
+class=stepTitle>Lather, rinse repeat. </SPAN></A></DIV>
+<DIV class=txt>Eventually, you will find all those lonely numbers in thier rows, 
+columns or groups. <BR><BR>Remember to draw those lines and circles in case you 
+get interrupted. <BR><BR>Eventually you will solve the puzzle. <BR><BR>Compare 
+our solution to the "Official Solution" found on the Sudoku.com site. See? A 
+perfect match. <BR><BR>And you thought Sudoku was hard. <BR><BR>It's so easy, 
+you don't even have to think!<BR></DIV>
+<TABLE width=10>
+  <TBODY>
+  <TR>
+    <TD>
+      <DIV id=spot805739 
+      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: relative"></DIV>
+      <SCRIPT type=text/javascript>
+var spotspot805739 = new ImageSpot( 'spot805739', { loadID: 'F67QSDFGFZEPD7QXN5', loadIMG: 'http://static2.instructables.com/pub/F67/QSDF/F67QSDFGFZEPD7QXN5.medium.jpg', showInfo: true, size: 'MEDIUM' } ); 
+new ImageInfo(  spotspot805739, {"imageID":"F67QSDFGFZEPD7QXN5","name":"dscn1266.jpg","imageURL":"http://static2.instructables.com/pub/F67/QSDF/F67QSDFGFZEPD7QXN5.medium.jpg","showURL":"/id/F67QSDFGFZEPD7QXN5/","dims":"(640x480)"} );
+new ImageInfo(  spotspot805739, {"imageID":"FC615ASJ00EPD7QXT4","name":"officialsolution.jpg","imageURL":"http://static2.instructables.com/pub/FC6/15AS/FC615ASJ00EPD7QXT4.medium.jpg","showURL":"/id/FC615ASJ00EPD7QXT4/","dims":"(318x291)"} );
+</SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<DIV class=spotThumbs style="MARGIN-TOP: 4px; MARGIN-BOTTOM: 4px"><A 
+onclick="ImageSpots.show( 'spot805739', 'F67QSDFGFZEPD7QXN5' ); return false;" 
+href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/F67QSDFGFZEPD7QXN5.thumb.jpg"></A><A 
+onclick="ImageSpots.show( 'spot805739', 'FC615ASJ00EPD7QXT4' ); return false;" 
+href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/FC615ASJ00EPD7QXT4.thumb.jpg"></A></DIV>
+<DIV style="MARGIN-TOP: 5px"><A 
+href="http://www.instructables.com/id/EML677PQM1EPD7QY1U/#DISCUSS">comments 
+(0)</A></DIV></DIV><A id=DISCUSS name=DISCUSS></A>
+<DIV 
+style="PADDING-RIGHT: 0px; MARGIN-TOP: 25px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
+<DIV><SPAN class=stepLabel>Comments</SPAN><A class=bright 
+style="PADDING-LEFT: 5px" 
+href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/comments.rss"><IMG 
+alt=rss src="Solve Sudoku (Without even thinking!)_files/rss.gif" border=0> 
+rss</A></DIV><A name=CEDXVWGCZRHEPD7QYJM></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/onTheJDAR/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/FMRXZ9QELHEPA8L29C.tiny.png"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/onTheJDAR/">onTheJDAR</A>says:</DIV>
+<DIV class=txt>I like this strategy. Makes it look easy!<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 8, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEDXVWGCZRHEPD7QYJM', 'EDXVWGCZRHEPD7QYJM', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEDXVWGCZRHEPD7QYJM', 'EDXVWGCZRHEPD7QYJM', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEDXVWGCZRHEPD7QYJM style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEZ03UQO39NEPLK0DVE></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 55px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/yaaaay/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/yaaaay/">yaaaay</A>says:</DIV>
+<DIV class=txt>This strategy is exactly what i have coded up on <A 
+href="http://sudokuhelper.kevinpluck.net/">http://sudokuhelper.kevinpluck.net/</A><BR><BR>It 
+really does make it easier!<BR><BR>You can solve the above puzzle by following 
+this link:<BR><A 
+href="http://sudokuhelper.kevinpluck.net/?g=83f3dcd50b4306951724ee7e0a9b4fb4&amp;apos;">http://sudokuhelper.kevinpluck.net/?g=83f3dcd50b4306951724ee7e0a9b4fb4&amp;apos;</A><BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 15, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEZ03UQO39NEPLK0DVE', 'EZ03UQO39NEPLK0DVE', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEZ03UQO39NEPLK0DVE', 'EZ03UQO39NEPLK0DVE', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEZ03UQO39NEPLK0DVE style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CE1H8Q3Z63NEPD7QYLM></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/ag100man/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/ag100man/">ag100man</A>says:</DIV>
+<DIV class=txt>I like it. Reduces Sudoku to a straightforward procedure and very 
+nicely explained. <BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 8, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyE1H8Q3Z63NEPD7QYLM', 'E1H8Q3Z63NEPD7QYLM', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyE1H8Q3Z63NEPD7QYLM', 'E1H8Q3Z63NEPD7QYLM', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyE1H8Q3Z63NEPD7QYLM style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEHLEU1M36YEPD7QZ9J></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/azn1stknightsoul/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/FWMMZ85I9IEP4HCVEV.tiny.png"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/azn1stknightsoul/">azn1stknightsoul</A>says:</DIV>
+<DIV class=txt>Thats pretty good. I think that with this strategy, I may even 
+beat my teacher who is a sudoku freak. Great job man.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 8, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEHLEU1M36YEPD7QZ9J', 'EHLEU1M36YEPD7QZ9J', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEHLEU1M36YEPD7QZ9J', 'EHLEU1M36YEPD7QZ9J', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEHLEU1M36YEPD7QZ9J style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEET8HDTFW5EPD7QZNO></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/matthewtoldme/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/F3HWVQQBSSEP27SAVN.tiny.png"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/matthewtoldme/">matthewtoldme</A>says:</DIV>
+<DIV class=txt>word.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 9, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEET8HDTFW5EPD7QZNO', 'EET8HDTFW5EPD7QZNO', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEET8HDTFW5EPD7QZNO', 'EET8HDTFW5EPD7QZNO', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEET8HDTFW5EPD7QZNO style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEEL72MY36MEPD7R68H></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/Freddo/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/Freddo/">Freddo</A>says:</DIV>
+<DIV class=txt>I do it the reverse way, that is I only mark down the numbers 
+that cannot be in the square. This save the time writing down all the numbers to 
+begin with.<BR><BR>Well, in fact I don't even write numbers but I just punch 
+little dots with my pencil corresponding to the position of numbers on the keys 
+of a phone. The downside is that you need to get used to it, but the benefits 
+are far more:<BR>First, working with dots is waaay faster. Placing them near the 
+corners and sides of the square, with only a faint dot in the middle for the 5, 
+you don't even need to erase them when you write the final number. <BR>Secondly, 
+it's easier to process all the numbers on a line or a column at the same time. 
+You draw the dots once then you repeat the drawing for the whole line. In your 
+example, you just mark the dots for 1456 in the first square, then copy it in 
+all the other squares.<BR><BR>For the procedure, I'd make all the square in last 
+resort. Here's how I go:<BR>- I first read all the numbers then try to complete 
+the more obvious one. Scanning each number once per 'quadrant', it helps to know 
+which numbers come often and which one to try to complete first. This will let 
+me discard more of them later. (3,9), (5,6), (4,3), ...<BR>- When I can't find 
+anything for 30 seconds - 1 minute I start adding dots to the intersections of 
+the lines and columns containing the more different numbers. (1,1), (4,5), 
+(6,3)... <BR>- If no intersections gives no results, I start dotting the squares 
+on the lines/columns where there's only 2 or 3 squares free. I do the same for 
+the nearly complete quadrants. (Columns 4 and 6 and the middle 'quadrant'). 
+<BR>- Next I try to rule out numbers from entire lines. For example in a 
+quadrant like the following one:<BR>xxx 123 xxx<BR>xxx _5_ xxx<BR>xxx 789 
+xxx<BR>You know for sure that 4 and 6 cannot be elsewhere on that line. So, to 
+remember it, before the line (outside the sudoku) I write at the middle of the 
+line a little 4, 6. I would have written it near the top to indicate the first 
+quadrant, and near the bottom for, well you guessed it... And just do it 
+vertically for the columns.<BR>- Again if after 30 seconds - one minute nothing 
+comes out, i finally start dotting the whole sudoku.<BR><BR>Generally, I 
+complete a sudoku from magazine in less than two or three minutes, without 
+having to dot the whole grid. Once you start with specialized book with 
+medium/hard puzzles, completing the grid is the only/easiest way to solve 
+them.<BR><BR>Note that at very hard levels, completing the grid WILL NOT solve 
+the sudoku. Your next steps are then to examine what would happen if a number 
+was here or there and see if it'still possible to put the remaining numbers, 
+sometimes planning 3 or more...<BR><BR>If you wish I can post a sample your 
+method won't solve, but I'll have to check at home.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 9, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEEL72MY36MEPD7R68H', 'EEL72MY36MEPD7R68H', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEEL72MY36MEPD7R68H', 'EEL72MY36MEPD7R68H', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEEL72MY36MEPD7R68H style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEHBZLKYG8EEPH67EA0></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 55px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/sloria1/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/sloria1/">sloria1</A>says:</DIV>
+<DIV class=txt>Hm.. sounds interesting. I'm not totally understanding your 
+method though. What do you mean by <BR><BR>"Scanning each number once per 
+'quadrant', it helps to know which numbers come often and which one to try to 
+complete first. This will let me discard more of them later."<BR><BR>and 
+<BR><BR>"I start adding dots to the intersections of the lines and columns 
+containing the more different numbers."<BR><BR>I wish I could solve a sudoku in 
+less than five minutes...<BR>please email me sloria1@gmail.com<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 11, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEHBZLKYG8EEPH67EA0', 'EHBZLKYG8EEPH67EA0', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEHBZLKYG8EEPH67EA0', 'EHBZLKYG8EEPH67EA0', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEHBZLKYG8EEPH67EA0 style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CESX7ZWUS5LEPH67NCN></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 55px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/bootyhuntah/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/bootyhuntah/">bootyhuntah</A>says:</DIV>
+<DIV class=txt>I would like to see a puzzle this method, outlined in this 
+article, doesn't work on. Please follow up!<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 13, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyESX7ZWUS5LEPH67NCN', 'ESX7ZWUS5LEPH67NCN', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyESX7ZWUS5LEPH67NCN', 'ESX7ZWUS5LEPH67NCN', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyESX7ZWUS5LEPH67NCN style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEHZ72NY1TXEPUCHS15></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 110px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/Freddo/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/Freddo/">Freddo</A>says:</DIV>
+<DIV class=txt>Hi,<BR><BR>I don't have any under the hand right now, but expect 
+a follow up with an example in the following week.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 20, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEHZ72NY1TXEPUCHS15', 'EHZ72NY1TXEPUCHS15', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEHZ72NY1TXEPUCHS15', 'EHZ72NY1TXEPUCHS15', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEHZ72NY1TXEPUCHS15 style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEGBH0E1DOTEPUCHRUU></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 55px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/electrotyler/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/electrotyler/">electrotyler</A>says:</DIV>
+<DIV class=txt>I use dots too... I don't want to get into a really long 
+explanation, but the theory is basically the same as writing each number in 
+every empty box except that the position of the dot represents a number (like on 
+a telephone.)<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 19, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEGBH0E1DOTEPUCHRUU', 'EGBH0E1DOTEPUCHRUU', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEGBH0E1DOTEPUCHRUU', 'EGBH0E1DOTEPUCHRUU', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEGBH0E1DOTEPUCHRUU style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEJC0JYW5HIEPD7RDPT></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/delgaudm/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/delgaudm/">delgaudm</A>says:</DIV>
+<DIV class=txt>Freddo, I think you are right, as far as this system won't solve 
+the most difficult puzzles. If there is a puzzle with so few clues that you have 
+to make a "guess" as to the next move, or think ahead then the pure "process of 
+elimination" won't work. I like your system with the dots. I had tried something 
+similar by using entering in the numbers as the were eliminated in the grid -- 
+in fact, that was the first way I tried it. For me, it was confusing, my 
+personal preference was to eliminate, as it made recognizing the numbers to 
+eliminate easier. <BR><BR>Thanks for the great feedback!<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 10, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEJC0JYW5HIEPD7RDPT', 'EJC0JYW5HIEPD7RDPT', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEJC0JYW5HIEPD7RDPT', 'EJC0JYW5HIEPD7RDPT', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEJC0JYW5HIEPD7RDPT style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CE9MPAKA92XEPH67BFL></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/joelfinkle/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/joelfinkle/">joelfinkle</A>says:</DIV>
+<DIV class=txt>There are a few techniques which can help for harder 
+puzzles:<BR>Examine each of the marked cells in a (row, column, box): if there 
+are two numbers that only appear in two of the boxes, then you know that those 
+two boxes can only have those two numbers.<BR><BR>Example: If one row has 4567, 
+4589, 6789, and 6789 left, then the leftmost can only be 45, and the rightmost, 
+by process of elimination, can only be 89.<BR><BR>More rarely, you can find the 
+same rule works for 3-way and 4-way groups.<BR><BR>Another trick: When scanning 
+a row or column, and you find that a number only appears in one box within that 
+row, you can eliminate that number from all other cells in that box. Conversely, 
+when scanning a box, if a number appears in just one column (or row), you can 
+eliminate that number from the other boxes that that column or row passes 
+through.<BR><BR>At the hardest levels, you will find you DO have to guess 
+between sets of possible results. A badly-created puzzle will have multiple 
+solutions (tsk tsk), but most of the time you will need to test an assumption 
+*carefully* such as circling the ones you *think* might be right, and putting 
+tick-marks above the numbers that the circled numbers then rule out. Don't erase 
+anything will testing assumptions, because it's very hard to 
+backtrack.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 11, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyE9MPAKA92XEPH67BFL', 'E9MPAKA92XEPH67BFL', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyE9MPAKA92XEPH67BFL', 'E9MPAKA92XEPH67BFL', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyE9MPAKA92XEPH67BFL style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEZZFI83Q47EPH67BFU></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/joelfinkle/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/joelfinkle/">joelfinkle</A>says:</DIV>
+<DIV class=txt>I forgot to mention: check out <A 
+href="http://www.ironsudoku.com/">http://www.ironsudoku.com/</A> for a free 
+daily puzzle with nice ajax-y user interface for marking numbers.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 11, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEZZFI83Q47EPH67BFU', 'EZZFI83Q47EPH67BFU', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEZZFI83Q47EPH67BFU', 'EZZFI83Q47EPH67BFU', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEZZFI83Q47EPH67BFU style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEII567B66JEPH67HFO></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 55px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/ZenMaster/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/ZenMaster/">ZenMaster</A>says:</DIV>
+<DIV class=txt>Is there a method where you do not have to write all those 
+numbers? I rarely have a pencil with a good enough eraser .<BR><BR>Thanks for 
+the tips though.<BR>One of the tricks that I seem to be employing (quite 
+frequently) is the one you describe.<BR>There is another one where if a number 
+(say 4) has multiple choices within one box and either one row (or column) then 
+you can eliminate that the other boxes in that row (or column).<BR><BR>I like 
+the interface at <A 
+href="http://www.zenofsudoku.com./">http://www.zenofsudoku.com./</A> You do not 
+need to be connected :-).. It also has different levels so you can "train". The 
+master level needs a black belt.<BR></DIV>
+<DIV class=spotThumbs style="MARGIN-TOP: 4px; MARGIN-BOTTOM: 4px"><A 
+href="http://www.instructables.com/id/FOUT5691VZEPH67H95/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/FOUT5691VZEPH67H95.small.jpg"></A></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 12, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEII567B66JEPH67HFO', 'EII567B66JEPH67HFO', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEII567B66JEPH67HFO', 'EII567B66JEPH67HFO', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEII567B66JEPH67HFO style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEIOR9G57NSEPH67BL6></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/julesa/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/julesa/">julesa</A>says:</DIV>
+<DIV class=txt>No, you never have to guess. You just have to use other 
+tricks.<BR><BR>Say you have 469 2346 49 2369 469 in a row, notice the 469, 49, 
+469. Those three squares have used up those three numbers, so you can eliminate 
+4, 6, and 9 from the other squares in that row, leaving 469 23 49 23 
+469.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 11, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEIOR9G57NSEPH67BL6', 'EIOR9G57NSEPH67BL6', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEIOR9G57NSEPH67BL6', 'EIOR9G57NSEPH67BL6', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEIOR9G57NSEPH67BL6 style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CE9FY5YQEGUEPH67BPC></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/dechunter/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/dechunter/">dechunter</A>says:</DIV>
+<DIV class=txt>When I first saw sudoku, the technique described here seemed to 
+me to be the intuitive method for solving the puzzles. How else do people do 
+it?<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 11, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyE9FY5YQEGUEPH67BPC', 'E9FY5YQEGUEPH67BPC', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyE9FY5YQEGUEPH67BPC', 'E9FY5YQEGUEPH67BPC', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyE9FY5YQEGUEPH67BPC style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CE7ZTSQFR12EPH67C0H></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/ericgorr/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/ericgorr/">ericgorr</A>says:</DIV>
+<DIV class=txt>While this method will solve the simplest of the Sudoku puzzles, 
+it is wholly inadequate to solve anything resembling an interesting Sudoku 
+puzzle.<BR><BR>For example, one will not be able to solve this puzzle:<BR><BR><A 
+href="http://www.scanraid.com/sudoku.htm?bd=620401030154008076003600401002547169475100382900823040008004600040900010000700054">http://www.scanraid.com/sudoku.htm?bd=620401030154008076003600401002547169475100382900823040008004600040900010000700054</A><BR><BR>Using 
+the method described above.<BR><BR>The Sudoku solves this link will take you to 
+cannot even solve it and yet there is a logically determined move one can make 
+to solve the puzzle. And, no, I won't tell you what it is.<BR><BR>For many 
+excellent strategies one might have to employ to solve a Sudoku puzzle, you can 
+check here:<BR><BR><A 
+href="http://www.scanraid.com/BasicStrategies.htm#NP">http://www.scanraid.com/BasicStrategies.htm#NP</A><BR><BR>and 
+other sites found via google.<BR><BR>Basically, this person who 
+wrote:<BR><BR>"It's so easy, you don't even have to think!"<BR><BR>doesn't even 
+have a remote clue what they are talking about.<BR><BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 11, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyE7ZTSQFR12EPH67C0H', 'E7ZTSQFR12EPH67C0H', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyE7ZTSQFR12EPH67C0H', 'E7ZTSQFR12EPH67C0H', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyE7ZTSQFR12EPH67C0H style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CE1XV58XY03EPH67DB6></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 55px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/statisticaltomfoolery/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/statisticaltomfoolery/">statisticaltomfoolery</A>says:</DIV>
+<DIV class=txt>It's true this isn't a complete solution guide, but doesn't 
+linking to scanraid fail to change the issue at hand here? Once one learns how 
+to apply searching for naked triples, do all the various x-wings, and so on, 
+isn't the solution just as mechanical? The sudoku solver on the page that you 
+link to is just a version of the above, just with a wider array of strategies. 
+<BR><BR>Sure, if you want to solve sudokus fast, you need to become good at 
+recognizing which strategies are more likely to work, which is some form of 
+pattern-matching/intuition, but for the simple act of solving, all you need is a 
+sufficiently powerful set of strategies and the willingness to spend a bit of 
+time.*<BR><BR><BR>* I concede that there may be sudoku's so powerful that one 
+would need to invent new strategies to solve them, but hopefully we can agree 
+that this is a very limited and extremely difficult to reproduce to 
+set.<BR><BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 11, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyE1XV58XY03EPH67DB6', 'E1XV58XY03EPH67DB6', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyE1XV58XY03EPH67DB6', 'E1XV58XY03EPH67DB6', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyE1XV58XY03EPH67DB6 style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CECI4MBJM2HEPH67C2W></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/LewisDowney/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/LewisDowney/">LewisDowney</A>says:</DIV>
+<DIV class=txt>Last year I created a little pdf note pad to support an approach 
+very similar to the idea discussed here. It has an enlarged grid with all the 
+possible numbers in it (1 thru 9 for each cell). For the row and columns there 
+is an exterior grid of numbers. Instead of erasing, I simply strike through the 
+numbers that are not possible - eventually arriving at the correct combinations 
+in all directions. The winnng number, so-to-speak, for each cell is printed in 
+the space available underneath the 1-9 strikeout numbers. The seed numbers are 
+also put in that space of course.<BR><BR>The note pad is here: <A 
+href="http://www.cicada.com/pdf/sudoku.pdf">http://www.cicada.com/pdf/sudoku.pdf</A> 
+<BR><BR>If these instructions do not make sense, leave a note here over the next 
+couple of days; and I'll see if I can fill in any gaps.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 11, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyECI4MBJM2HEPH67C2W', 'ECI4MBJM2HEPH67C2W', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyECI4MBJM2HEPH67C2W', 'ECI4MBJM2HEPH67C2W', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyECI4MBJM2HEPH67C2W style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEULXLBUI0YEPH67DTU></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/martymorrow/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/martymorrow/">martymorrow</A>says:</DIV>
+<DIV class=txt>any puzzle that can be solved this way would be considered "easy" 
+Yes, doing easy puzzles is boring. So is solving easy crosswords. Try a puzzle 
+with less than 25 numbers displayed. Yours has 30.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 11, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEULXLBUI0YEPH67DTU', 'EULXLBUI0YEPH67DTU', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEULXLBUI0YEPH67DTU', 'EULXLBUI0YEPH67DTU', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEULXLBUI0YEPH67DTU style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CE5GNMTK4X4EPH67G8X></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/acidzebra/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/acidzebra/">acidzebra</A>says:</DIV>
+<DIV class=txt>I'm with Marty here; this will only work on the simplest of 
+Sudoku.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 12, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyE5GNMTK4X4EPH67G8X', 'E5GNMTK4X4EPH67G8X', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyE5GNMTK4X4EPH67G8X', 'E5GNMTK4X4EPH67G8X', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyE5GNMTK4X4EPH67G8X style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEWXGQGQ3ZBEPH67G9D></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/Bunky+Strutts/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/Bunky+Strutts/">Bunky 
+Strutts</A>says:</DIV>
+<DIV class=txt>Folks,<BR><BR>All you need to have to solve Soduku Puzzles 
+quickly, is an audience. I've solved a few, but it does not give me the same 
+satisfaction of cranking out a crossword. Instead, take the section of the daily 
+paper to the soccer game, airport queue line, or anywhere someone might notice 
+that you are working on a Sudoku grid.<BR><BR>Fill numbers into the grid at 
+random, stopping occasionally to scratch your head or take a sip of 
+something.<BR><BR>Finish filling in the grid quickly, lean back, and exhale. 
+Then tear out the grid from the paper, fold it, and put it in your pocket. If 
+anyone was looking over your shoulder, or otherwise checking you out, exclaim 
+that you just broke your own record, and ask them to check it.<BR><BR>Then pull 
+out the puzzle grid from YESTERDAY'S PAPER from the same pocket. Of course you 
+have to fill in the published solution from TODAY'S PAPER to pull this 
+off.<BR><BR>You can only do this every other day, unless you purchase two daily 
+newspapers.<BR><BR>Bunky Strutts<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 12, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEWXGQGQ3ZBEPH67G9D', 'EWXGQGQ3ZBEPH67G9D', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEWXGQGQ3ZBEPH67G9D', 'EWXGQGQ3ZBEPH67G9D', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEWXGQGQ3ZBEPH67G9D style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CE2TI69BXALEPH67GBF></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/Bunky+Strutts/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/Bunky+Strutts/">Bunky 
+Strutts</A>says:</DIV>
+<DIV class=txt>P.S. Do it with a pencil without an eraser, or better yet, in 
+ink.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 12, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyE2TI69BXALEPH67GBF', 'E2TI69BXALEPH67GBF', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyE2TI69BXALEPH67GBF', 'E2TI69BXALEPH67GBF', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyE2TI69BXALEPH67GBF style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CERUCWGKYA7EPH67GDN></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/ShedLab/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/ShedLab/">ShedLab</A>says:</DIV>
+<DIV class=txt>You don't happen to own a copy of Brain Age for the Nintendo DS 
+do you?<BR><BR>This is the exact same method you can use on that program as it 
+allows you to write 9 small numbers in each square...<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 12, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyERUCWGKYA7EPH67GDN', 'ERUCWGKYA7EPH67GDN', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyERUCWGKYA7EPH67GDN', 'ERUCWGKYA7EPH67GDN', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyERUCWGKYA7EPH67GDN style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEI61U0ZUX5EPH67GT6></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/logicchop/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/logicchop/">logicchop</A>says:</DIV>
+<DIV class=txt>This technique is misleading. <BR><BR>It is not a "Sudoku 
+algorithm," contrary to the way it is being portrayed. An algorithm would solve 
+any arbitrary Sudoku puzzle, but this technique does not do that. Instead, it 
+only solves relatively simple puzzles. In fact, if you look at the puzzles that 
+this technique can solve, it would probably be easier to use a more 
+straightforward technique (think of how much time you spend penciling in 
+numbers).<BR><BR>If you don't believe me, try solving an 'evil' puzzle on 
+websudoku.com using this technique. You will quickly see that it doesn't get you 
+very far.<BR><BR>One more thing. Mark Frauenfelder posted a link to this page 
+today on BoingBoing.net; he also criticizes Sudoku by contrasting it with 
+crossword puzzles, which, as he puts it, are "clever, surprising, and 
+educational." He also happens to think that this technique of 
+penciling-and-eliminating is a "fullproof Sudoku solving algorithm." But why 
+think that? Did someone post a proof somewhere? I didn't see one. Perhaps Mr. 
+Frauenfelder should check the educational worth of his crossword puzzles because 
+apparently he's not picking up basic reasoning skills.<BR><BR>\Sudoku 
+fan<BR><BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 12, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEI61U0ZUX5EPH67GT6', 'EI61U0ZUX5EPH67GT6', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEI61U0ZUX5EPH67GT6', 'EI61U0ZUX5EPH67GT6', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEI61U0ZUX5EPH67GT6 style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CE1C4T5WJCPEPH67GUF></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/jridley/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/jridley/">jridley</A>says:</DIV>
+<DIV class=txt>Uh, this is totally obvious, I'm not sure how you'd solve sudokus 
+except for doing this. At least, trivial ones. This is what a kid would figure 
+out in 10 minutes.<BR><BR>Note that this only works against "easy" and MAYBE 
+some "medium" sudokus. Harder sudokus are going to require much more in-depth 
+thinking, including looking ahead N moves; to solve on a computer you need tree 
+or recursion algorithms.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 12, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyE1C4T5WJCPEPH67GUF', 'E1C4T5WJCPEPH67GUF', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyE1C4T5WJCPEPH67GUF', 'E1C4T5WJCPEPH67GUF', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyE1C4T5WJCPEPH67GUF style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEPE4XO3O9FEPH67GWP></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/LewisDowney/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/LewisDowney/">LewisDowney</A>says:</DIV>
+<DIV class=txt>Let me add a simple observation. The notepad I linked to above is 
+simply that. The user has to determine by logic which numbers are or are not not 
+possible. As I worked through ever more difficult Sudokus I could not keep up 
+with all different combinations I was thinking through. So I would start little 
+notes on a piece of paper. Later, I decided to organize the notes resulting in 
+<A 
+href="http://www.cicada.com/pdf/sudoku.pdf">http://www.cicada.com/pdf/sudoku.pdf</A><BR><BR>The 
+use of the notepad may well be outside of the spirit of the Sudoku, I cannot 
+say. I can say that the act of keeping notes will not solve the puzzles by 
+itself - the user must work through the necessary logic and intricasies to find 
+the solution.<BR><BR>So my note pad is really simply a piece of paper to make 
+notes on -- that because my memory could not keep up with the combinations of 
+numbers I was trying to keep straight. Let me reiterate that the act of making 
+notes will not remove the burden of solving the puzzle. It is easy to make 
+mistakes and then mark them down. Those mistakes then become the foundation of 
+solutions that do not work. To those of you who can resolve the puzzles without 
+making notes, my kudos! <BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 12, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEPE4XO3O9FEPH67GWP', 'EPE4XO3O9FEPH67GWP', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEPE4XO3O9FEPH67GWP', 'EPE4XO3O9FEPH67GWP', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEPE4XO3O9FEPH67GWP style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CE10PWCQI1EEPH67GX5></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/ladyjake/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/ladyjake/">ladyjake</A>says:</DIV>
+<DIV class=txt>Ok - I'm a SuDoku freak so I tried your method. My own method 
+accomplishes the same thing and doesn't involve having to write so much. (I play 
+a digital copy.) Each number will appear one time in each "quadrant." there are 
+3 quadrants across and down, of course... so each one will contain 1 - 9 in the 
+middle, upper, or lower row. (left, middle or right for columns) Once you fill 
+in as many as you can that way, then you can start filling in columns and rows. 
+I solved the above "easy" puzzle pretty quickly using my own method - no 
+erasing. When I tried this method (I used excel - too much penciling!), on a 
+harder puzzle, there were way too many fields still unfilled. As mentioned 
+above, a more analytical thinking process has to be applied even after 
+eliminating as many as you can using whatever method. I'll read up some more on 
+these other links to see if there are new ways of thinking that I can apply to 
+my obsession....<BR>ladyjake<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 12, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyE10PWCQI1EEPH67GX5', 'E10PWCQI1EEPH67GX5', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyE10PWCQI1EEPH67GX5', 'E10PWCQI1EEPH67GX5', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyE10PWCQI1EEPH67GX5 style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CE8X3GKE5OAEPH67H1I></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/fstopblues/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/fstopblues/">fstopblues</A>says:</DIV>
+<DIV class=txt>A while ago, I made a small application that solved Sudoku for 
+me. I was at work and very bored. I used the exact algorithm described here, 
+with one improvement.<BR>When all else fails with the steps above, you still 
+have one more option. I call it "rail" elimination. If, for instance you have a 
+"quadrants" where two (or even three) spaces are empty, but all in the same 
+row:<BR>3 _ 6<BR>2 _ 8<BR>5 _ 1<BR>Then you can deduce that all other spaces in 
+the row in the other quadrants will NOT have those numbers still missing from 
+the first quadrant. This can help in situations like this:<BR>1 2 3 _ _ 6<BR>_ _ 
+6 7 _ 9 &lt;== rail for 4 &amp; 5<BR>7 8 9 1 2 3<BR>You know that 4 or 5 then 
+can't be in the middle of the second quadrant, and so it must be 8. This sounds 
+intuitive, but my app had to explicitly be told to do this.<BR><BR>HOWEVER, evem 
+with this addition, the app still can't solve level 5 sudoku without educated 
+guessing.<BR><BR>Here's the link to the app on my 
+website:<BR>www.getpoorquickscheme.com/Sudoku.exe<BR>(I can put source code up 
+too if someone wants to see it)<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 12, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyE8X3GKE5OAEPH67H1I', 'E8X3GKE5OAEPH67H1I', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyE8X3GKE5OAEPH67H1I', 'E8X3GKE5OAEPH67H1I', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyE8X3GKE5OAEPH67H1I style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CE5U1F991V9EPH67H2F></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 55px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/jmzero/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/jmzero/">jmzero</A>says:</DIV>
+<DIV class=txt>Solving Sudoku with a computer is trivial - you want to use a 
+backtracking type scheme. The pseudo-code is like this:<BR><BR>solve(first 
+square)<BR><BR>function solve(location)<BR>if location is end of puzzle: return 
+"yes"<BR>if location has no possible choice: return "no"<BR>repeat for each 
+possible choice<BR>write number in blank<BR>if solve(next location) 
+then<BR>return "yes"<BR>end if<BR>end repeat<BR><BR>erase number in this grid 
+location<BR>return "no"<BR><BR>end function<BR><BR>I've implemented the above - 
+it should take just a few minutes to write - and it works 
+fine.<BR><BR><BR><BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 12, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyE5U1F991V9EPH67H2F', 'E5U1F991V9EPH67H2F', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyE5U1F991V9EPH67H2F', 'E5U1F991V9EPH67H2F', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyE5U1F991V9EPH67H2F style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CE2XU1A9HCWEPH67H1O></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/jmzero/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/jmzero/">jmzero</A>says:</DIV>
+<DIV class=txt>Here's a much, much simpler solution, and it's also foolproof. 
+Once you've done the first 4 steps, you never have to do them again!<BR><BR>Prep 
+work:<BR>1. Write down all the numbers up to 10<SUP>64. </SUP><BR>2. Cross out 
+any that contain zeroes.<BR>3. Transfer each number into a blank Sudoku puzzle. 
+Cross out any number that doesn't constitute a valid solution.<BR>4. You now 
+have the master list of Sudoku puzzles. <BR><BR>You may want to make a couple 
+photocopies of this so that you can use one list for each puzzle you do. Make 
+sure the copier has at least 10<SUP>59 or so sheets of paper when you start - 
+you don't want to run out half way through the job! Or you can just use a pencil 
+when crossing out the numbers.</SUP><BR><BR>Solving a puzzle:<BR>1. Cross out 
+any numbers off the list that don't match the puzzle you're looking at.<BR>2. At 
+the end, you should be left with one number - that's the solution!<BR><BR>If 
+there's more than one number, either you screwed up or whoever made the puzzle 
+did. You should do all the steps again to make sure.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 12, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyE2XU1A9HCWEPH67H1O', 'E2XU1A9HCWEPH67H1O', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyE2XU1A9HCWEPH67H1O', 'E2XU1A9HCWEPH67H1O', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyE2XU1A9HCWEPH67H1O style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CE89VL30HKCEPH67H8C></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/spinach_dip/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/FFMP149UHDEPUCI5UX.tiny.png"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/spinach_dip/">spinach_dip</A>says:</DIV>
+<DIV class=txt>Sudoku is about as much fun as watching paint dry. <BR><BR>You 
+put down all the possible numbers in a blank square after eliminating all 
+candidates that appear in the row, column or quadrant. Then you work through, 
+using permutation and analysis, the squares that have multiple candidates. It 
+being easy for a computer to solve just about says it all. The only interesting 
+problems are ones that a computer finds hard to solve.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 12, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyE89VL30HKCEPH67H8C', 'E89VL30HKCEPH67H8C', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyE89VL30HKCEPH67H8C', 'E89VL30HKCEPH67H8C', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyE89VL30HKCEPH67H8C style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEBXV1XL6Q0EPH67HTU></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 55px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/fstopblues/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/fstopblues/">fstopblues</A>says:</DIV>
+<DIV class=txt>Word!<BR><BR>And finding the time to write reponses to an online 
+Sudoku blog, more fun than sex in space!<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 12, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEBXV1XL6Q0EPH67HTU', 'EBXV1XL6Q0EPH67HTU', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEBXV1XL6Q0EPH67HTU', 'EBXV1XL6Q0EPH67HTU', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEBXV1XL6Q0EPH67HTU style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEAEDWDAKI6EPH67HXL></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 110px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/spinach_dip/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/FFMP149UHDEPUCI5UX.tiny.png"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/spinach_dip/">spinach_dip</A>says:</DIV>
+<DIV class=txt>Sorry, I didn't mean to rain on your parade. But this AMAZING! 
+SUDOKU! DISCOVERY!!! is clogging up my RSS feeds as the tidal wave approaches 
+the shore.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 12, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEAEDWDAKI6EPH67HXL', 'EAEDWDAKI6EPH67HXL', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEAEDWDAKI6EPH67HXL', 'EAEDWDAKI6EPH67HXL', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEAEDWDAKI6EPH67HXL style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CE2D2YYJ7VNEPH67HWY></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/jan.vdbergh/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/jan.vdbergh/">jan.vdbergh</A>says:</DIV>
+<DIV class=txt>In case you're interested in this technique: we have a sudoku 
+game on our website that allows exactly this.<BR><BR>Check it out at <A 
+href="http://www.sokudo.be/sudoku">http://www.sokudo.be/sudoku</A><BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 12, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyE2D2YYJ7VNEPH67HWY', 'E2D2YYJ7VNEPH67HWY', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyE2D2YYJ7VNEPH67HWY', 'E2D2YYJ7VNEPH67HWY', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyE2D2YYJ7VNEPH67HWY style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEYSWQDH61DEPH67KU8></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/Mister+Sparkle/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/F45EKV7JDBEP27XYNI.tiny.png"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/Mister+Sparkle/">Mister 
+Sparkle</A>says:</DIV>
+<DIV class=txt>Isnt't this just bypassing the fun of the game? <BR>But then 
+again, I also purchased the books on how to beat the Rubicks cube and a book on 
+memorizing Pac Man patterns.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 13, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEYSWQDH61DEPH67KU8', 'EYSWQDH61DEPH67KU8', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEYSWQDH61DEPH67KU8', 'EYSWQDH61DEPH67KU8', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEYSWQDH61DEPH67KU8 style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CE8N4RTL12NEPLK098R></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/zinged/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/zinged/">zinged</A>says:</DIV>
+<DIV class=txt>How about just not do a Sudoku at all?<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 14, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyE8N4RTL12NEPLK098R', 'E8N4RTL12NEPLK098R', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyE8N4RTL12NEPLK098R', 'E8N4RTL12NEPLK098R', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyE8N4RTL12NEPLK098R style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CE17WWUE7VZEPOI5SW6></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A href="http://www.instructables.com/member/N8/"><IMG 
+alt="" src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/N8/">N8</A>says:</DIV>
+<DIV class=txt>I just "see" the answers come now. Brain Age game really helped 
+me develop this ability. I love the option to "see wrong answers" immediately. 
+It makes you only go for the unambigous choices for a final answer, which 
+improves your ability. <BR>Rubik's Cube = 25 seconds :)<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 15, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyE17WWUE7VZEPOI5SW6', 'E17WWUE7VZEPOI5SW6', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyE17WWUE7VZEPOI5SW6', 'E17WWUE7VZEPOI5SW6', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyE17WWUE7VZEPOI5SW6 style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEQQ7AZXA3KEPORT4X1></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/Ravi+à¤°à¤µà¤¿/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/Ravi+à¤°à¤µà¤¿/">Ravi 
+रवि</A>says:</DIV>
+<DIV class=txt>This no thinking Sudoku Solution is really Great!<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 16, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEQQ7AZXA3KEPORT4X1', 'EQQ7AZXA3KEPORT4X1', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEQQ7AZXA3KEPORT4X1', 'EQQ7AZXA3KEPORT4X1', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEQQ7AZXA3KEPORT4X1 style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEP1ZKGZT08EPORTKZY></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/mightywombat/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/mightywombat/">mightywombat</A>says:</DIV>
+<DIV class=txt>Okay, but so why even bother to do SuDoKu now, if it's not a 
+puzzle anymore?<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 18, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEP1ZKGZT08EPORTKZY', 'EP1ZKGZT08EPORTKZY', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEP1ZKGZT08EPORTKZY', 'EP1ZKGZT08EPORTKZY', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEP1ZKGZT08EPORTKZY style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEQ0819W8L4EPORTQOX></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/popshed/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/popshed/">popshed</A>says:</DIV>
+<DIV class=txt>When I was wasting man hours doing Sudoku for a couple of weeks 
+last year, I came up with a similar approach. It reached the point where every 
+"puzzle" became a number crunching exercise, and not a particularly fun one at 
+that. Once it had been reduced to this purely logical formula it became 
+pointless and my two week addiction was destroyed. The only ones this can't 
+solve are the really difficult ones which, despite what anyone says, all boil 
+down to Ariadne's Thread solutions, again just number crunching until you arrive 
+at the solution. Pointless. Well done for letting everyone know.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 19, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEQ0819W8L4EPORTQOX', 'EQ0819W8L4EPORTQOX', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEQ0819W8L4EPORTQOX', 'EQ0819W8L4EPORTQOX', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEQ0819W8L4EPORTQOX style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEG4SMCSKPUEPORTRG6></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/domain+manager/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/domain+manager/">domain 
+manager</A>says:</DIV>
+<DIV class=txt>free Sudoku Puzzles resource: <A 
+href="http://www.glass.in/result.php?Keywords=free+sudoku">http://www.glass.in/result.php?Keywords=free+sudoku</A> 
+<BR>got lots of information.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 19, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEG4SMCSKPUEPORTRG6', 'EG4SMCSKPUEPORTRG6', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEG4SMCSKPUEPORTRG6', 'EG4SMCSKPUEPORTRG6', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEG4SMCSKPUEPORTRG6 style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEKPS5BFZQ4EPUCHRH5></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/cvillewill/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/cvillewill/">cvillewill</A>says:</DIV>
+<DIV class=txt>I did this exact method without writing down all of the little 
+numbers. Since trying that my IQ has lowered 30 points. I am the first person 
+with a negative IQ. At first I celebrated that and then I realized I lost my IQ 
+to a dumb Japanese puzzle. I tried your method and I once again have a positive 
+I.Q. ... Barely<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 19, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEKPS5BFZQ4EPUCHRH5', 'EKPS5BFZQ4EPUCHRH5', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEKPS5BFZQ4EPUCHRH5', 'EKPS5BFZQ4EPUCHRH5', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEKPS5BFZQ4EPUCHRH5 style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEWZWWXPHXGEPUCHRSV></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/plinksudoks/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/plinksudoks/">plinksudoks</A>says:</DIV>
+<DIV class=txt>I liked the suggestions. I have my own way of solving sudoks but 
+it may take some time for me to solve. Its a dynamic logic processing technique 
+(if I may use programming language). Easy sudoks take about 3-5 mins. The medium 
+types take 7-8 mins. The difficult takes about 12 mins. And the very difficult 
+take about 20-30 mins fo me. How much time will the above take?<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 19, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEWZWWXPHXGEPUCHRSV', 'EWZWWXPHXGEPUCHRSV', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEWZWWXPHXGEPUCHRSV', 'EWZWWXPHXGEPUCHRSV', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEWZWWXPHXGEPUCHRSV style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CECAGXZT8YVEPUCHSD3></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/Henrietta/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/Henrietta/">Henrietta</A>says:</DIV>
+<DIV class=txt>Where's the fun in that?? It makes it too easy! You might as well 
+not play at all!<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 20, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyECAGXZT8YVEPUCHSD3', 'ECAGXZT8YVEPUCHSD3', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyECAGXZT8YVEPUCHSD3', 'ECAGXZT8YVEPUCHSD3', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyECAGXZT8YVEPUCHSD3 style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEI5W3MT6QKEPZV5X1W></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/gormly/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/gormly/">gormly</A>says:</DIV>
+<DIV class=txt>Um... you poeple will lose to me everytime if you follow this 
+method.. <BR><BR>my quicker method is to only fill in the "tic tac toe" with 
+numbers NOT in the veritical row starting from the top.<BR><BR>For instance the 
+only numbers in the tic tac toe grid for position are three and nine.. there is 
+NO need to put a full on grid in the first position, it is a waste of time. 
+<BR><BR>Fill out the first row grid and follow the pattern, once you have the 
+first row.. the rest is cake.<BR>even faster than this listed method.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 23, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEI5W3MT6QKEPZV5X1W', 'EI5W3MT6QKEPZV5X1W', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEI5W3MT6QKEPZV5X1W', 'EI5W3MT6QKEPZV5X1W', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEI5W3MT6QKEPZV5X1W style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEETKLNXXWIEPZY2N04></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/jshields/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/jshields/">jshields</A>says:</DIV>
+<DIV class=txt>I tried out this method but by the time I had filled out half the 
+boxes with 9 numbers in each my hand was already hurting and it made me not want 
+to even bother to finish. Then when you try to erase a tiny little number 
+written in pencil others around it smear. It just seems like alot of prep work 
+and it's alot faster to use other methods of solving the puzzles, plus this 
+takes the fun out of it.<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 24, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEETKLNXXWIEPZY2N04', 'EETKLNXXWIEPZY2N04', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEETKLNXXWIEPZY2N04', 'EETKLNXXWIEPZY2N04', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEETKLNXXWIEPZY2N04 style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CED2NIVBE73EQ2W38S9></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/Amy+Haarth/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/Amy+Haarth/">Amy Haarth</A>says:</DIV>
+<DIV class=txt>Hi all, I just signed up with this site. I am writing this in 
+desperation. I need a solution to a puzzle as soon as possible. Somebody has 
+challenged me and yes I am cheating. It's an evil sudoku puzzle. This is how it 
+goes.B are the blank cells.<BR><BR>3BB 49B 1BB<BR>2BB BBB 7BB<BR>B6B BB7 
+BBB<BR><BR>B26 BB8 B9B<BR>5BB BBB BB7<BR>B3B 9BB 84B<BR><BR>BBB 8BB B3B<BR>BB3 
+BBB BB8<BR>BB4 B51 BB9<BR><BR>Please respond ASAP. Thanks in 
+advance<BR><BR><BR><BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 26, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyED2NIVBE73EQ2W38S9', 'ED2NIVBE73EQ2W38S9', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyED2NIVBE73EQ2W38S9', 'ED2NIVBE73EQ2W38S9', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyED2NIVBE73EQ2W38S9 style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CEMHGBYLBNFEQ2W3ADR></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 55px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/chuybregts/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/F7HULSIEDZEP2819MH.tiny.png"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/chuybregts/">chuybregts</A>says:</DIV>
+<DIV 
+class=txt>GRID:<BR>{3}{7}{5}{4}{9}{2}{1}{8}{6}<BR>{2}{4}{9}{1}{8}{6}{7}{5}{3}<BR>{8}{6}{1}{5}{3}{7}{9}{2}{4}<BR>{4}{2}{6}{7}{1}{8}{3}{9}{5}<BR>{5}{9}{8}{2}{4}{3}{6}{1}{7}<BR>{1}{3}{7}{9}{6}{5}{8}{4}{2}<BR>{6}{5}{2}{8}{7}{9}{4}{3}{1}<BR>{9}{1}{3}{6}{2}{4}{5}{7}{8}<BR>{7}{8}{4}{3}{5}{1}{2}{6}{9}<BR><BR>Hope 
+this helps. One day I wrote a brute force solver that can handle the most evil 
+of solutions :)<BR><BR>Chris<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 26, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyEMHGBYLBNFEQ2W3ADR', 'EMHGBYLBNFEQ2W3ADR', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyEMHGBYLBNFEQ2W3ADR', 'EMHGBYLBNFEQ2W3ADR', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyEMHGBYLBNFEQ2W3ADR style="PADDING-TOP: 5px"></DIV></DIV></DIV><A 
+name=CENFVGPXZR4EQ2W3GRH></A>
+<DIV class=clearfix 
+style="BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: red 0px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; BORDER-LEFT: red 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: red 0px solid">
+<DIV style="FLOAT: left"><A 
+href="http://www.instructables.com/member/Amy+Haarth/"><IMG alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"></A></DIV>
+<DIV 
+style="BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; MARGIN-LEFT: 55px; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid">
+<DIV><A class=entryListTitle style="PADDING-RIGHT: 5px" 
+href="http://www.instructables.com/member/Amy+Haarth/">Amy Haarth</A>says:</DIV>
+<DIV class=txt>I can't thank you enough chris. You are great. I have started 
+doing the sudoku puzzle lately and am only familiar with the trial and error 
+method of solving the puzzle. But there has to be a logical way of doing it. 
+Does one look for a pattern of numbers or a grid or what? Can you take the time 
+(whenever at your convenience) to explain how you got the answers. There's no 
+hurry.<BR>Thanks<BR></DIV>
+<TABLE style="PADDING-TOP: 5px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>Jul 27, 2006<A style="PADDING-LEFT: 10px" 
+      onclick="ShowCommentPoster( 'replyENFVGPXZR4EQ2W3GRH', 'ENFVGPXZR4EQ2W3GRH', false ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[reply]</A><A 
+      style="PADDING-LEFT: 4px" 
+      onclick="ShowCommentPoster( 'replyENFVGPXZR4EQ2W3GRH', 'ENFVGPXZR4EQ2W3GRH', true  ); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag]</A></TD></TR></TBODY></TABLE>
+<DIV id=replyENFVGPXZR4EQ2W3GRH style="PADDING-TOP: 5px"></DIV></DIV></DIV>
+<SCRIPT type=text/javascript>
+function PostNewComment()
+{
+	ShowCommentPoster( 'NewCommentPOST', 'EJLUBKN48JEPD7QXGR' );
+	ToggleDisplayStyles( 'NewCommentPOST', 'NewCommentLINK' );
+}
+</SCRIPT>
+<A id=POST name=POST></A>
+<TABLE style="MARGIN-TOP: 2px; MARGIN-BOTTOM: 10px">
+  <TBODY>
+  <TR vAlign=top>
+    <TD><IMG onclick="PostNewComment(); return false;" alt="" 
+      src="Solve Sudoku (Without even thinking!)_files/comment.gif"></TD>
+    <TD style="PADDING-LEFT: 8px">
+      <DIV id=NewCommentLINK><A class=stepLabel 
+      onclick="PostNewComment(); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">Add 
+      Comment </A></DIV>
+      <DIV id=NewCommentPOST style="DISPLAY: none">
+      <DIV id=CommentPoster style="Z-INDEX: 100">
+      <DIV id=CommentLoggedIn>
+      <DIV id=CommentFlaggerXX 
+      style="BORDER-RIGHT: black 0px solid; BORDER-TOP: black 0px solid; BORDER-LEFT: black 0px solid; BORDER-BOTTOM: black 0px solid">
+      <DIV id=CommentFlagOptions>
+      <DIV class=stepLabel>Flag this comment for review?</DIV>
+      <DIV class=clearfix>
+      <DIV style="FLOAT: left; MARGIN-RIGHT: 5px"><A class=button 
+      onclick="FlagCurrentCommentAs('review');; return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">yes</A></DIV>
+      <DIV style="FLOAT: left; MARGIN-RIGHT: 5px"><A class=button 
+      onclick="Effect.Fade('CommentPoster'); return false;; return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">no</A></DIV></DIV></DIV>
+      <DIV class=clearfix id=CommentFlagResponse 
+      style="BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: black 1px solid; DISPLAY: none; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; BORDER-LEFT: black 1px solid; WIDTH: 300px; PADDING-TOP: 10px; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: #ffcc00">XXX 
+      </DIV></DIV>
+      <DIV id=CommentPosterXX>
+      <DIV><SPAN class=stepLabel>Your <SPAN 
+      id=commentType>Comment</SPAN></SPAN><A style="PADDING-LEFT: 10px" 
+      onclick="ToggleLibrary(); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">(attach 
+      images/files)</A></DIV>
+      <FORM id=PostCommentForm 
+      style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px" 
+      action=/edit/post method=post><INPUT id=PostTopicID type=hidden 
+      value=setME!!! name=topicID><INPUT id=CommentFormImages type=hidden 
+      name=images><INPUT id=CommentFormFiles type=hidden name=files><TEXTAREA id=PostCommentFormBODY style="OVERFLOW: auto; WIDTH: 440px" name=body rows=6></TEXTAREA>
+      <DIV class=postLibDiv id=commentFiles 
+      style="PADDING-RIGHT: 0px; MARGIN-TOP: 5px; DISPLAY: none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 448px; PADDING-TOP: 0px">
+      <DIV class=clearfix><IMG style="FLOAT: left" alt="" 
+      src="Solve Sudoku (Without even thinking!)_files/loading.gif"><B>loading 
+      your library...</B></DIV></DIV>
+      <DIV id=PostCommentFormError 
+      style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; BACKGROUND-COLOR: #ffcc00">hey, 
+      this is my error! </DIV>
+      <DIV class=clearfix style="MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px">
+      <DIV id=PostCommentButton style="FLOAT: left"><A class=button 
+      onclick="PostComment(); return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">post 
+      comment</A></DIV>
+      <DIV id=CancelREPLY style="FLOAT: left; MARGIN-LEFT: 10px"><A class=button 
+      onclick="Effect.Fade('CommentPoster'); return false;; return false;" 
+      href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">cancel</A></DIV></DIV></FORM></DIV></DIV>
+      <DIV id=CommentLogin>
+      <DIV id=LoggingIN style="DISPLAY: none">
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD><IMG alt=connecting 
+            src="Solve Sudoku (Without even thinking!)_files/loading.gif"></TD>
+          <TD><B>Processing your login...</B></TD></TR></TBODY></TABLE></DIV>
+      <DIV id=FormLoginDIV>
+      <FORM action=# method=post>
+      <TABLE class=form>
+        <TBODY>
+        <TR>
+          <TD 
+          style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; BACKGROUND-COLOR: #ffcc00" 
+          colSpan=2>
+            <DIV class=bold-label id=loginFeedback>Hey! You need to log in to do 
+            that!</DIV></TD></TR>
+        <TR>
+          <TD class=formLeftWidth>
+            <DIV class=bold-label>Username:</DIV></TD>
+          <TD><INPUT class=inputBorder id=loginNAME maxLength=32 name=u></TD></TR>
+        <TR>
+          <TD>
+            <DIV class=bold-label>Password:</DIV></TD>
+          <TD><INPUT class=inputBorder id=loginPASS type=password 
+name=p></TD></TR>
+        <TR>
+          <TD style="BACKGROUND-COLOR: #ffffff">&nbsp;</TD>
+          <TD 
+          style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; BACKGROUND-COLOR: #ffffff"><A 
+            class=button onclick="DoCommentLogin();; return false;" 
+            href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">login</A>&nbsp; 
+            <A class=button onclick="" 
+            href="http://www.instructables.com/account/register">new 
+        user?</A></TD></TR></TBODY></TABLE><INPUT 
+      style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px; BORDER-RIGHT-WIDTH: 0px" 
+      type=image src="Solve Sudoku (Without even thinking!)_files/pixel.gif" 
+      value="" name=x></FORM></DIV></DIV>
+      <SCRIPT language=JavaScript type=text/javascript>
+
+  Element.hide( 'CommentLoggedIn' );
+
+</SCRIPT>
+      </DIV></DIV></TD></TR></TBODY></TABLE></DIV><!-- google_ad_section_end -->
+<DIV style="MARGIN-TOP: 20px; MARGIN-BOTTOM: 20px; TEXT-ALIGN: center"><A 
+href="http://www.instructables.com/">© 2006 Instructables</A><SPAN 
+style="MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px">|</SPAN> <A 
+href="http://www.instructables.com/about/">About</A><SPAN 
+style="MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px">|</SPAN> <A 
+onclick="window.open('/tos.html','TOS','status=yes,scrollbars=yes,resizable=yes,width=600,height=480'); return false;" 
+href="http://www.instructables.com/tos.html">Legal</A><SPAN 
+style="MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px">|</SPAN> <A 
+href="http://www.instructables.com/about/contact.jsp">Contact Us</A> </DIV>
+<SCRIPT src="Solve Sudoku (Without even thinking!)_files/urchin.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+_uacct = "UA-306473-1";
+_udn = "instructables.com";
+urchinTracker();
+</SCRIPT>
+</DIV></DIV>
+<DIV id=navigation>
+<DIV style="MARGIN-TOP: 15px; MARGIN-LEFT: 15px">
+<DIV>
+<DIV class=label>Added Jul 8, 2006 by</DIV>
+<DIV><A class=bright href="http://www.instructables.com/member/delgaudm/"><IMG 
+style="PADDING-RIGHT: 5px; HEIGHT: 20px" alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"><SPAN 
+style="POSITION: relative; TOP: -5px">delgaudm</SPAN></A></DIV></DIV>
+<DIV style="MARGIN-TOP: 5px"><A 
+href="http://creativecommons.org/licenses/by-nc-sa/2.5/"><IMG alt=cc 
+src="Solve Sudoku (Without even thinking!)_files/creative_commons.gif"> Some 
+rights reserved </A></DIV><!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/">
+<permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+<permits rdf:resource="http://web.resource.org/cc/Distribution" />
+<permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+<requires rdf:resource="http://web.resource.org/cc/Attribution" />
+<requires rdf:resource="http://web.resource.org/cc/Notice" />
+<requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+<prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+</License>
+-->
+<H3>They Like It</H3>
+<DIV><A href="http://www.instructables.com/member/eludevisibility/"><IMG 
+style="PADDING-RIGHT: 5px; HEIGHT: 20px" alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"><SPAN 
+style="POSITION: relative; TOP: -5px">eludevisibility</SPAN></A></DIV>
+<DIV><A href="http://www.instructables.com/member/esotericsean/"><IMG 
+style="PADDING-RIGHT: 5px; HEIGHT: 20px" alt="" 
+src="Solve Sudoku (Without even thinking!)_files/F8RCA4KYC7EPUCHXPS.tiny.png"><SPAN 
+style="POSITION: relative; TOP: -5px">esotericsean</SPAN></A></DIV>
+<DIV><A href="http://www.instructables.com/member/ag100man/"><IMG 
+style="PADDING-RIGHT: 5px; HEIGHT: 20px" alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"><SPAN 
+style="POSITION: relative; TOP: -5px">ag100man</SPAN></A></DIV>
+<DIV><A href="http://www.instructables.com/member/Blackbeard522/"><IMG 
+style="PADDING-RIGHT: 5px; HEIGHT: 20px" alt="" 
+src="Solve Sudoku (Without even thinking!)_files/FWKHKUFHPLEP27YYKQ.tiny.png"><SPAN 
+style="POSITION: relative; TOP: -5px">Blackbeard522</SPAN></A></DIV>
+<DIV><A href="http://www.instructables.com/member/ZenMaster/"><IMG 
+style="PADDING-RIGHT: 5px; HEIGHT: 20px" alt="" 
+src="Solve Sudoku (Without even thinking!)_files/persona.gif"><SPAN 
+style="POSITION: relative; TOP: -5px">ZenMaster</SPAN></A></DIV>(9 people)<BR>
+<H3>They Also Like</H3>
+<DIV class="tooltipByID ttid_E1UH1FVL92EPA8KY3A"><A 
+href="http://www.instructables.com/id/E1UH1FVL92EPA8KY3A/"><IMG 
+style="PADDING-RIGHT: 5px; HEIGHT: 20px" alt="" 
+src="Solve Sudoku (Without even thinking!)_files/FMGSFFXLWSEPA8L2UM.tiny.png"><SPAN 
+style="POSITION: relative; TOP: -5px">Record it yourself </SPAN></A></DIV>
+<DIV class="tooltipByID ttid_E6UKA0S108EP286PBX"><A 
+href="http://www.instructables.com/id/E6UKA0S108EP286PBX/"><IMG 
+style="PADDING-RIGHT: 5px; HEIGHT: 20px" alt="" 
+src="Solve Sudoku (Without even thinking!)_files/FTUM1JITTREP27UMAL.tiny.png"><SPAN 
+style="POSITION: relative; TOP: -5px">Change the start button 
+i...</SPAN></A></DIV>
+<DIV class="tooltipByID ttid_E9D2ZJ3FG0EP286JEJ"><A 
+href="http://www.instructables.com/id/E9D2ZJ3FG0EP286JEJ/"><IMG 
+style="PADDING-RIGHT: 5px; HEIGHT: 20px" alt="" 
+src="Solve Sudoku (Without even thinking!)_files/FV00U508ZPEP27TMES.tiny.png"><SPAN 
+style="POSITION: relative; TOP: -5px">LED Throwies</SPAN></A></DIV>
+<DIV class="tooltipByID ttid_EBTB9L9YKIEP286ATH"><A 
+href="http://www.instructables.com/id/EBTB9L9YKIEP286ATH/"><IMG 
+style="PADDING-RIGHT: 5px; HEIGHT: 20px" alt="" 
+src="Solve Sudoku (Without even thinking!)_files/F6SKXL4O47EP27SDXI.tiny.png"><SPAN 
+style="POSITION: relative; TOP: -5px">Using Opacity Masks in 
+Ad...</SPAN></A></DIV>
+<DIV class="tooltipByID ttid_EH7OP57TN5EPD7RCMO"><A 
+href="http://www.instructables.com/id/EH7OP57TN5EPD7RCMO/"><IMG 
+style="PADDING-RIGHT: 5px; HEIGHT: 20px" alt="" 
+src="Solve Sudoku (Without even thinking!)_files/FZA0KWP3GNEPD7RCL4.tiny.png"><SPAN 
+style="POSITION: relative; TOP: -5px">Aluminium Computer Desk 
+f...</SPAN></A></DIV>
+<TABLE style="MARGIN-TOP: 10px">
+  <TBODY>
+  <TR vAlign=center>
+    <TD>
+      <H3 
+      style="PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 5px 0px 0px; PADDING-TOP: 0px">Rate 
+      it</H3></TD>
+    <TD>
+      <DIV id=xxx></DIV>
+      <SCRIPT type=text/javascript>
+    new ThumbsUpDown( 'xxx', { entryID:'EJLUBKN48JEPD7QXGR', thumb:'' } );
+  </SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<H3><A href="http://www.instructables.com/tag/keyword:/">Keywords:</A></H3>
+<UL>
+  <LI><A href="http://www.instructables.com/tag/keyword:puzzle/">puzzle</A> 
+  <LI><A href="http://www.instructables.com/tag/keyword:solve/">solve</A> 
+  <LI><A href="http://www.instructables.com/tag/keyword:sudoku/">sudoku</A> 
+</LI></UL>
+<H3><A href="http://www.instructables.com/groups/">Groups</A></H3>
+<DIV><A href="http://www.instructables.com/group/ceclavin/"><IMG 
+style="PADDING-RIGHT: 5px; HEIGHT: 20px" alt="" 
+src="Solve Sudoku (Without even thinking!)_files/default.gif"><SPAN 
+style="POSITION: relative; TOP: -5px">Ceclavín en la Red ®</SPAN></A></DIV>
+<P><A class=dull href="http://www.instructables.com/groups/">+ Join 
+groups</A></P>
+<H3>Contribute</H3>
+<UL>
+  <LI><A href="http://www.instructables.com/edit/new?type=instructable">New 
+  Instructable</A>
+  <LI><A href="http://www.instructables.com/edit/new?type=group">New Group</A>
+  <LI><A href="http://www.instructables.com/upload">Upload Files</A>
+  <LI><A href="http://www.instructables.com/bugs/">bugs</A></LI></UL>
+<DIV style="MARGIN-TOP: 15px; MARGIN-BOTTOM: 20px"><A 
+onclick="FlagEntryAs('EJLUBKN48JEPD7QXGR', 'review'); return false;" 
+href="http://www.instructables.com/id/EJLUBKN48JEPD7QXGR/?ALLSTEPS#">[flag for 
+review]</A><BR></DIV></DIV></DIV>
+<DIV id=extra>
+<DIV style="MARGIN-TOP: 10px; Z-INDEX: 1" align=center>
+<SCRIPT type=text/javascript><!--           
+	google_ad_client = "pub-1783560022203827";                   
+	google_ad_width = 160;                                         
+	google_ad_height = 600;                                        
+	google_ad_format = "160x600_as";                             
+	google_ad_channel ="3523325227";                             
+	google_color_border = "FFFFFF";                              
+	google_color_bg = "FFFFFF";                                  
+	google_color_link = "857561";                                
+	google_color_url  = "FF5200";                                
+	google_color_text = "857561";                                
+	//--></SCRIPT>
+
+<SCRIPT src="Solve Sudoku (Without even thinking!)_files/show_ads.js" 
+type=text/javascript>
+	</SCRIPT>
+</DIV></DIV></DIV></DIV>
+<SCRIPT type=text/javascript>
+ FormInstructions.setup();
+ DropBoxes.setup();
+ rotateBulletPoints();
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+Tooltip.registerTT( 'E6UKA0S108EP286PBX', { elem: Builder.node( 'div', { className:'clearFix', style:'width:250px;' }, [ Builder.node( 'img', {src:'http://static2.instructables.com/pub/FTU/M1JI/FTUM1JITTREP27UMAL.thumb.jpg', style:'float:left; margin-right:3px;'} ), Builder.node( 'b', { style:'display:inline; padding-right:4px;' }, "Change the start button in Windows XP" ), "In this step-by-step guide, you'll be able to change the text in your start button to whatever you'd like!"] )  } );
+Tooltip.registerTT( 'EBTB9L9YKIEP286ATH', { elem: Builder.node( 'div', { className:'clearFix', style:'width:250px;' }, [ Builder.node( 'img', {src:'http://static2.instructables.com/pub/F6S/KXL4/F6SKXL4O47EP27SDXI.thumb.jpg', style:'float:left; margin-right:3px;'} ), Builder.node( 'b', { style:'display:inline; padding-right:4px;' }, "Using Opacity Masks in Adobe Illustrator" ), "The \"Origin of the Species - wall hanging\" project makes a nice use of opacity masks in Illustrator, embedding an image in a field of text by changing the opacity throughout.  But pulling this off can be difficult to figure out.  This guide will run you through the step..."] )  } );
+Tooltip.registerTT( 'ENUUEF7K3REPD7QXUD', { elem: Builder.node( 'div', { className:'clearFix', style:'width:250px;' }, [ Builder.node( 'img', {src:'http://static2.instructables.com/pub/F86/PKFR/F86PKFR1XLEPD7QXJF.thumb.jpg', style:'float:left; margin-right:3px;'} ), Builder.node( 'b', { style:'display:inline; padding-right:4px;' }, "What you need to begin" ), "You need:\r\n\r\n1. A sudoku puzzle. I enlarged this one (which was the puzzle that appeared on Sudoku.com on July 8, 2006.) to make photography easier. I find this system works better on larger puzzles. \r\n\r\n2. A pencil, Not a pen. A pencil. \r\n\r\n3. An eraser.  "] )  } );
+Tooltip.registerTT( 'E03KDLAEJ6EPD7QXZQ', { elem: Builder.node( 'div', { className:'clearFix', style:'width:250px;' }, [ Builder.node( 'img', {src:'http://static2.instructables.com/pub/F82/9RG3/F829RG3OX0EPD7QXY9.thumb.jpg', style:'float:left; margin-right:3px;'} ), Builder.node( 'b', { style:'display:inline; padding-right:4px;' }, "Repeat for all the pre-printed numbers" ), "Just repeat thos three steps for each number that was printed in the puzzle. The purpose of the down, across, and circle marks on each number is to provide for any interruption that may occur when solving the puzzle. By drawling those lines you can always tell exactly whe..."] )  } );
+Tooltip.registerTT( 'EJLUBKN48JEPD7QXGR', { elem: Builder.node( 'div', { className:'clearFix', style:'width:250px;' }, [ Builder.node( 'img', {src:'http://static2.instructables.com/pub/F43/P59G/F43P59GACZEPD7QXFF.thumb.jpg', style:'float:left; margin-right:3px;'} ), Builder.node( 'b', { style:'display:inline; padding-right:4px;' }, "Solve Sudoku (Without even thinking!)" ), "This instructable provides step by step instructions to complete a Sudoku puzzle by simple process of elimination. \r\n\r\nOne of the things I that drove me crazy about Sudoku is how difficult it is to return to a puzzle if you get interupted. This system allows you to walk aw..."] )  } );
+Tooltip.registerTT( 'EML677PQM1EPD7QY1U', { elem: Builder.node( 'div', { className:'clearFix', style:'width:250px;' }, [ Builder.node( 'img', {src:'http://static2.instructables.com/pub/F67/QSDF/F67QSDFGFZEPD7QXN5.thumb.jpg', style:'float:left; margin-right:3px;'} ), Builder.node( 'b', { style:'display:inline; padding-right:4px;' }, "Lather, rinse repeat. " ), "Eventually, you will find all those lonely numbers in thier rows, columns or groups. \r\n\r\nRemember to draw those lines and circles in case you get interrupted. \r\n\r\nEventually you will solve the puzzle. \r\n\r\nCompare our solution to the \"Official Solution\" found on the Sudoku.com site. See? ..."] )  } );
+Tooltip.registerTT( 'ALLSTEPSTT', { innerHTML:"View all steps at once" } );
+Tooltip.registerTT( 'E9D2ZJ3FG0EP286JEJ', { elem: Builder.node( 'div', { className:'clearFix', style:'width:250px;' }, [ Builder.node( 'img', {src:'http://static2.instructables.com/pub/FV0/0U50/FV00U508ZPEP27TMES.thumb.jpg', style:'float:left; margin-right:3px;'} ), Builder.node( 'b', { style:'display:inline; padding-right:4px;' }, "LED Throwies" ), "Developed by the [http://graffitiresearchlab.com Graffiti Research Lab] a division of the [http://research.eyebeam.org/\" Eyebeam R&D OpenLab], LED Throwies are an inexpensive way to add color to any ferromagnetic surface in your neighborhood. A Throwie consists of a lithium battery, a 10mm diffuse..."] )  } );
+Tooltip.registerTT( 'E99XBBRY3QEPD7QXX7', { elem: Builder.node( 'div', { className:'clearFix', style:'width:250px;' }, [ Builder.node( 'img', {src:'http://static2.instructables.com/pub/FWX/QK08/FWXQK087ISEPD7QXI7.thumb.jpg', style:'float:left; margin-right:3px;'} ), Builder.node( 'b', { style:'display:inline; padding-right:4px;' }, "Erase Down" ), "Now, for that same number \"6\", erase the corresponding \"6\"'s in every box in the same column. Once you have completed erasing, draw a line down the edge of the number to indicate that you have completed this step. "] )  } );
+Tooltip.registerTT( 'E1UH1FVL92EPA8KY3A', { elem: Builder.node( 'div', { className:'clearFix', style:'width:250px;' }, [ Builder.node( 'img', {src:'http://static2.instructables.com/pub/FMG/SFFX/FMGSFFXLWSEPA8L2UM.thumb.jpg', style:'float:left; margin-right:3px;'} ), Builder.node( 'b', { style:'display:inline; padding-right:4px;' }, "Record it yourself " ), "By Theo Kogan & Sean Pierce • Photo by Ryan Pfluger    \r\nCourtesy of Venus Zine\r\n   \r\nFormer Lunachicks front woman Theo Kogan — who’s now the current leading lady of Theo and the Skyscrapers — explains how you can turn your pad into a recording studio. Skyscrapers guitarist Sean Pierce (fo..."] )  } );
+Tooltip.registerTT( 'ENWXG30D3ZEPD7QXUX', { elem: Builder.node( 'div', { className:'clearFix', style:'width:250px;' }, [ Builder.node( 'img', {src:'http://static2.instructables.com/pub/FEP/9TOC/FEP9TOC09ZEPD7QXIT.thumb.jpg', style:'float:left; margin-right:3px;'} ), Builder.node( 'b', { style:'display:inline; padding-right:4px;' }, "Fill in the \"Missing Grid\"" ), "You see, a Sudoku puzzle is missing a grid. Once you put in this grid, it is sooo much easier. \r\n\r\nEnter the numbers 1 through 9 in a \"tic-tac-toe\" pattern in every blank box. \r\n\r\n"] )  } );
+Tooltip.registerTT( 'EYDYBH0MQCEPD7QXWO', { elem: Builder.node( 'div', { className:'clearFix', style:'width:250px;' }, [ Builder.node( 'img', {src:'http://static2.instructables.com/pub/FL6/GNNW/FL6GNNWWQIEPD7QXVC.thumb.jpg', style:'float:left; margin-right:3px;'} ), Builder.node( 'b', { style:'display:inline; padding-right:4px;' }, "Erase \"Across\"" ), "For each number that is preprinted in the puzzle, you will start erasing that number from the appropriate grids you just wrote in. \r\n\r\nSo the first number (in the upper right corner) is a \"6\". Erase every other \"6\" in that row. Once you have completed the erasing, draw a line across the top of t..."] )  } );
+Tooltip.registerTT( 'E6YQZOKFUVEPD7QY09', { elem: Builder.node( 'div', { className:'clearFix', style:'width:250px;' }, [ Builder.node( 'img', {src:'http://static2.instructables.com/pub/FCC/L6G2/FCCL6G26YUEPD7QXPL.thumb.jpg', style:'float:left; margin-right:3px;'} ), Builder.node( 'b', { style:'display:inline; padding-right:4px;' }, "Locate Answers" ), "By process of elimination you will have done so much erasing in some blocks that only one number is left. Guess what. THat is the answer for that block. Congratulate yourself.\r\n\r\nWrite that number large in the block, then treat it like a preprinted number. Eliminate all the across, down and arou..."] )  } );
+Tooltip.registerTT( 'EH7OP57TN5EPD7RCMO', { elem: Builder.node( 'div', { className:'clearFix', style:'width:250px;' }, [ Builder.node( 'img', {src:'http://static2.instructables.com/pub/FZA/0KWP/FZA0KWP3GNEPD7RCL4.thumb.jpg', style:'float:left; margin-right:3px;'} ), Builder.node( 'b', { style:'display:inline; padding-right:4px;' }, "Aluminium Computer Desk for $30" ), "A slick computer desk made for compact living made of recycled material. I got some offset boards from the local newspaper printer. Total cost under $30"] )  } );
+Tooltip.registerTT( 'ELGECX4DYHEPD7QY1B', { elem: Builder.node( 'div', { className:'clearFix', style:'width:250px;' }, [ Builder.node( 'img', {src:'http://static2.instructables.com/pub/FPF/211N/FPF211N9O8EPD7QXNR.thumb.jpg', style:'float:left; margin-right:3px;'} ), Builder.node( 'b', { style:'display:inline; padding-right:4px;' }, "Look Around a quadrant. " ), "I know, they aren't really quadrants, but you know what I mean, don't you?\r\n\r\nIf you've looked across the columns, and across the rows and there are all duplicates, then look in the group. If there is one number in the group that only appears in one block, then it's your answer.\r\n\r\nSee..."] )  } );
+Tooltip.registerTT( 'EK3N4H7EYHEPD7QY0S', { elem: Builder.node( 'div', { className:'clearFix', style:'width:250px;' }, [ Builder.node( 'img', {src:'http://static2.instructables.com/pub/FOI/AE7C/FOIAE7CR4GEPD7QXOZ.thumb.jpg', style:'float:left; margin-right:3px;'} ), Builder.node( 'b', { style:'display:inline; padding-right:4px;' }, "Other kinds of eliminations. " ), "You won't always be so lucky. Not every time will you end up erasing all the numbers but one in a block. If that is the case, then you peruse the puzzle to find eliminations. \r\n\r\nFirst look down each column. If you find a number that only appears in one block in a column. That is ..."] )  } );
+Tooltip.registerTT( 'EKZCB1BA91EPD7QXXQ', { elem: Builder.node( 'div', { className:'clearFix', style:'width:250px;' }, [ Builder.node( 'img', {src:'http://static2.instructables.com/pub/FUR/JGXR/FURJGXR0GNEPD7QXHL.thumb.jpg', style:'float:left; margin-right:3px;'} ), Builder.node( 'b', { style:'display:inline; padding-right:4px;' }, "Erase \"All Around\"" ), "Ok, last step for the first number \"6\" Erase all the \"6\"s in the same quadrant. Then draw a circle around the number to indicate you have completed this step.  \r\n\r\nNow you have eliminated all the sixes from all the other blocks. That indicates that a Six canot appear in any of those blocks. ..."] )  } );
+Tooltip.setup();
+</SCRIPT>
+</BODY></HTML>

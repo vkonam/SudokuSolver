@@ -1,0 +1,411 @@
+BODY {
+	FONT-SIZE: 11px; MARGIN: 0px; COLOR: #333333; FONT-FAMILY: arial, helvetica, sans-serif; BACKGROUND-COLOR: #ffffff; WORD-WRAP: break-word
+}
+P {
+	FONT-SIZE: 11px; MARGIN: 2px 0px 10px; FONT-FAMILY: arial, helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 11px; MARGIN: 2px 0px 10px; FONT-FAMILY: arial, helvetica, sans-serif
+}
+TH {
+	FONT-SIZE: 11px; MARGIN: 2px 0px 10px; FONT-FAMILY: arial, helvetica, sans-serif
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 24px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 2px; COLOR: #333333; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 18px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 2px 2px; COLOR: #333333; PADDING-TOP: 0px
+}
+.subtitleBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #333333
+}
+.date {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 3px; BACKGROUND: url(/static/img/date_holder.gif) no-repeat; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 12px 5px 0px; FONT: bold 2.4em Arial, sans-serif; WIDTH: 64px; COLOR: #999; PADDING-TOP: 5px; LETTER-SPACING: -0.08em; HEIGHT: 69px; TEXT-ALIGN: center
+}
+A.button {
+	BORDER-RIGHT: #c2bab0 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #c2bab0 1px solid; DISPLAY: inline-block; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(/static/img/buttonBG.gif); PADDING-BOTTOM: 2px; BORDER-LEFT: #c2bab0 1px solid; COLOR: #ff5200; PADDING-TOP: 2px; BORDER-BOTTOM: #c2bab0 1px solid; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #fddeb0; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+A.button:hover {
+	BORDER-RIGHT: #c27e00 1px solid; BORDER-TOP: #c27e00 1px solid; BACKGROUND-IMAGE: url(/static/img/buttonBG-over.gif); BORDER-LEFT: #c27e00 1px solid; BORDER-BOTTOM: #c27e00 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #f5f3ee; TEXT-DECORATION: none
+}
+.wikierror {
+	BORDER-RIGHT: #d00 2px solid; PADDING-RIGHT: 0.5em; BORDER-TOP: #d00 2px solid; PADDING-LEFT: 0.5em; BACKGROUND: #fdc; PADDING-BOTTOM: 0.5em; MARGIN: 1em 0px; BORDER-LEFT: #d00 2px solid; COLOR: #500; PADDING-TOP: 0.5em; BORDER-BOTTOM: #d00 2px solid
+}
+.wikierror PRE {
+	MARGIN-LEFT: 1em; OVERFLOW: auto
+}
+A .entryExtraTitle {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 16px; PADDING-BOTTOM: 0px; COLOR: #333333; PADDING-TOP: 0px
+}
+A .entryExtraTitle:hover {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 16px; PADDING-BOTTOM: 0px; COLOR: #ff5200; PADDING-TOP: 0px
+}
+.entryExtra {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 4px 4px 4px 0px; BORDER-LEFT: #dddddd 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #dddddd 1px solid
+}
+A {
+	COLOR: #857561; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: underline
+}
+A IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+A.bright {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.bright:hover {
+	TEXT-DECORATION: underline
+}
+A.dull {
+	COLOR: #cabfb1; TEXT-DECORATION: none
+}
+A.dull:hover {
+	COLOR: #857561; TEXT-DECORATION: underline
+}
+.txt A {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+.txt A:hover {
+	TEXT-DECORATION: underline
+}
+H3 {
+	MARGIN-TOP: 15px; FONT-WEIGHT: bold; FONT-SIZE: 16px; MARGIN-BOTTOM: 1px; COLOR: #000000
+}
+UL {
+	BORDER-RIGHT: pink 0px solid; BORDER-TOP: pink 0px solid; PADDING-LEFT: 1px; FONT-SIZE: 10px; MARGIN: 0px; BORDER-LEFT: pink 0px solid; LINE-HEIGHT: 125%; BORDER-BOTTOM: pink 0px solid; FONT-FAMILY: arial, helvetica, sans-serif; LIST-STYLE-TYPE: none; TEXT-ALIGN: left
+}
+LI {
+	BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 3px; BORDER-TOP: red 0px solid; PADDING-LEFT: 15px; BACKGROUND-IMAGE: url(/static/IMGS/bullet-1.gif); PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: red 0px solid; COLOR: #857561; BORDER-BOTTOM: red 0px solid; BACKGROUND-REPEAT: no-repeat
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	BORDER-RIGHT: #857561 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #857561 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 2px; BORDER-LEFT: #857561 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #857561 1px solid
+}
+.inputBorder {
+	BORDER-RIGHT: #857561 1px solid; BORDER-TOP: #857561 1px solid; BORDER-LEFT: #857561 1px solid; BORDER-BOTTOM: #857561 1px solid
+}
+SELECT {
+	BORDER-RIGHT: #857561 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #857561 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 2px; BORDER-LEFT: #857561 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #857561 1px solid
+}
+TEXTAREA {
+	BORDER-RIGHT: #857561 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #857561 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 2px; BORDER-LEFT: #857561 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #857561 1px solid
+}
+.label {
+	COLOR: #857561
+}
+.bold-label {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; WHITE-SPACE: nowrap
+}
+TABLE {
+	BORDER-COLLAPSE: collapse; TEXT-ALIGN: left; border-spacing: 0px
+}
+TABLE.useradmin {
+	BORDER-RIGHT: #c2bab0 1px solid; MARGIN-BOTTOM: 10px; BORDER-LEFT: #c2bab0 1px solid; WIDTH: 100%
+}
+TABLE.useradmin TR {
+	BORDER-RIGHT: red 0px solid; BORDER-TOP: red 0px solid; BACKGROUND: #ffffff; BORDER-LEFT: red 0px solid; BORDER-BOTTOM: #c2bab0 1px solid
+}
+TABLE.useradmin:hover TR:hover {
+	BACKGROUND: #dddddd
+}
+TABLE.useradmin TD {
+	PADDING-RIGHT: 3px
+}
+DIV.formRow {
+	BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 5px; BORDER-TOP: red 0px solid; PADDING-LEFT: 5px; BACKGROUND: #e7e3df; PADDING-BOTTOM: 5px; BORDER-LEFT: red 0px solid; PADDING-TOP: 5px; BORDER-BOTTOM: white 3px solid
+}
+DIV.sortableFiles {
+	BORDER-RIGHT: #c2bab0 1px solid; BORDER-LEFT: #c2bab0 1px solid; BORDER-BOTTOM: #c2bab0 1px solid
+}
+DIV.sortableFileRow {
+	PADDING-RIGHT: 2px; BORDER-TOP: #c2bab0 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+DIV.sortableFileRow:hover {
+	BACKGROUND-COLOR: #eeeeee
+}
+DIV.spinner {
+	PADDING-LEFT: 15px; BACKGROUND: url(/static/IMGS/spinner.gif) no-repeat 0px 2px; PADDING-TOP: 1px; HEIGHT: 14px
+}
+SPAN.dragHandle {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; CURSOR: move; PADDING-TOP: 5px; HEIGHT: 15px; BACKGROUND-COLOR: #c2bab0
+}
+SPAN.dragHandle:hover {
+	BACKGROUND-COLOR: #ff6600
+}
+SPAN.deleteBTN {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; HEIGHT: 15px; BACKGROUND-COLOR: #c2bab0
+}
+SPAN.deleteBTN:hover {
+	BACKGROUND-COLOR: #ff6600
+}
+A.tagDeleteBTN {
+	PADDING-LEFT: 5px; VISIBILITY: hidden
+}
+SPAN.ttipHover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; CURSOR: help; COLOR: #857561; TEXT-DECORATION: none
+}
+.ShowTag:link {
+	MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 2px; TEXT-DECORATION: none
+}
+.ShowTag:hover {
+	BACKGROUND: #ff5200; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.librayRowCountSelect {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 9px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: right; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.librayRowCountSelect OPTION {
+	BACKGROUND: #ffffff
+}
+IMG.libraryItem {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; FLOAT: left; BORDER-LEFT: #ffffff 1px solid; CURSOR: move; BORDER-BOTTOM: #ffffff 1px solid
+}
+IMG.libraryItem:hover {
+	BORDER-RIGHT: #ff6600 1px solid; BORDER-TOP: #ff6600 1px solid; BORDER-LEFT: #ff6600 1px solid; BORDER-BOTTOM: #ff6600 1px solid
+}
+A.highlight {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-BOTTOM: #ffffff 1px solid
+}
+A.highlight:hover {
+	BORDER-RIGHT: #ff6600 1px solid; BORDER-TOP: #ff6600 1px solid; BORDER-LEFT: #ff6600 1px solid; BORDER-BOTTOM: #ff6600 1px solid
+}
+DIV.uuidcart {
+	BORDER-RIGHT: #857561 1px solid; BORDER-TOP: #857561 1px solid; BORDER-LEFT: #857561 1px solid; BORDER-BOTTOM: #857561 1px solid; BACKGROUND-COLOR: #ffffff
+}
+DIV.uuidcart-active {
+	BORDER-RIGHT: #ff6600 1px solid; BORDER-TOP: #ff6600 1px solid; BORDER-LEFT: #ff6600 1px solid; BORDER-BOTTOM: #ff6600 1px solid; BACKGROUND-COLOR: #fff4d8
+}
+.formLeftWidth {
+	WIDTH: 130px
+}
+TABLE.form {
+	MARGIN-BOTTOM: 10px; WIDTH: 100%
+}
+TABLE.form TD {
+	BORDER-RIGHT: red 0px solid; PADDING-RIGHT: 5px; BORDER-TOP: red 0px solid; PADDING-LEFT: 5px; BACKGROUND: #e7e3df; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: top; BORDER-LEFT: red 0px solid; PADDING-TOP: 5px; BORDER-BOTTOM: white 3px solid
+}
+TABLE.whiteform {
+	BACKGROUND: #ffffff; WIDTH: 100%
+}
+TABLE.whiteform TD {
+	BORDER-RIGHT: green 0px solid; BORDER-TOP: green 0px solid; BACKGROUND: #ffffff; VERTICAL-ALIGN: middle; BORDER-LEFT: green 0px solid; BORDER-BOTTOM: green 0px solid
+}
+.tagTable {
+	PADDING-TOP: 10px
+}
+.tagCell {
+	BORDER-RIGHT: #c2bab0 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: #c2bab0 1px solid; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; BORDER-LEFT: #c2bab0 1px solid; LINE-HEIGHT: 24px; PADDING-TOP: 15px; BORDER-BOTTOM: #c2bab0 1px solid; BACKGROUND-COLOR: #f0edeb
+}
+.tagCell A:link {
+	TEXT-DECORATION: none
+}
+.tagCell A:hover {
+	COLOR: #ffffff; BACKGROUND-COLOR: #ff5200; TEXT-DECORATION: none
+}
+.spotThumbs A IMG {
+	MARGIN-BOTTOM: 2px; MARGIN-RIGHT: 2px; BORDER-BOTTOM: #fff 5px solid
+}
+.spotThumbs A:hover IMG {
+	BORDER-BOTTOM: #ff6600 5px solid
+}
+.spotThumbs A:hover {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.steps A IMG {
+	BORDER-RIGHT: #fff 4px solid; BORDER-TOP: #fff 4px solid; MARGIN: 0px; BORDER-LEFT: #fff 4px solid; BORDER-BOTTOM: #fff 4px solid
+}
+.steps A:hover IMG {
+	BORDER-RIGHT: #ff5200 4px solid; BORDER-TOP: #ff5200 4px solid; BORDER-LEFT: #ff5200 4px solid; BORDER-BOTTOM: #ff5200 4px solid
+}
+.selectedStep {
+	BORDER-RIGHT: #ff5200 4px solid; BORDER-TOP: #ff5200 4px solid; BORDER-LEFT: #ff5200 4px solid; BORDER-BOTTOM: #ff5200 4px solid
+}
+.steps A:hover {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.steps DIV {
+	BORDER-RIGHT: pink 0px solid; BORDER-TOP: pink 0px solid; FLOAT: left; BORDER-LEFT: pink 0px solid; WIDTH: 56px; BORDER-BOTTOM: pink 0px solid; POSITION: relative; HEIGHT: 56px
+}
+.steps SPAN {
+	BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: black 1px solid; PADDING-LEFT: 2px; LEFT: 8px; PADDING-BOTTOM: 0px; BORDER-LEFT: black 1px solid; COLOR: #333333; PADDING-TOP: 0px; BORDER-BOTTOM: black 1px solid; POSITION: absolute; TOP: 8px; BACKGROUND-COLOR: #ffffff
+}
+A.withBG {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 3px; FONT-WEIGHT: bold; PADDING-BOTTOM: 1px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.withBG:hover {
+	COLOR: #000000; BACKGROUND-COLOR: #ff5200; TEXT-DECORATION: none
+}
+.entryList {
+	BORDER-RIGHT: #c2bab0 1px solid; BORDER-TOP: #c2bab0 0px solid; BORDER-LEFT: #c2bab0 1px solid; WIDTH: 100%; BORDER-BOTTOM: #c2bab0 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.entryList:hover {
+	BACKGROUND-COLOR: #f5f5f5
+}
+.entryListTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #857561; LINE-HEIGHT: 21px
+}
+.imagenote {
+	BORDER-RIGHT: #ffff00 2px ridge; PADDING-RIGHT: 0px; BORDER-TOP: #ffff00 2px ridge; PADDING-LEFT: 0px; VISIBILITY: visible; PADDING-BOTTOM: 0px; BORDER-LEFT: #ffff00 2px ridge; COLOR: white; PADDING-TOP: 0px; BORDER-BOTTOM: #ffff00 2px ridge; POSITION: absolute
+}
+.imgnote_overlay {
+	FILTER: alpha(opacity=40); LEFT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: #000; opacity: 0.4
+}
+.imagenote_highlight {
+	BORDER-RIGHT: #ffff00 2px solid; BORDER-TOP: #ffff00 2px solid; BORDER-LEFT: #ffff00 2px solid; BORDER-BOTTOM: #ffff00 2px solid
+}
+DIV.imagenote_body {
+	BORDER-RIGHT: #222222 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #222222 1px solid; PADDING-LEFT: 5px; BACKGROUND: #ffffff; PADDING-BOTTOM: 2px; BORDER-LEFT: #222222 1px solid; WIDTH: 210px; COLOR: black; PADDING-TOP: 5px; BORDER-BOTTOM: #222222 1px solid; POSITION: absolute
+}
+.noteEdit_handle {
+	BORDER-RIGHT: #333 1px solid; BORDER-TOP: #333 1px solid; Z-INDEX: 3; BACKGROUND: #fff; FILTER: alpha(opacity=50); BORDER-LEFT: #333 1px solid; WIDTH: 6px; BORDER-BOTTOM: #333 1px solid; POSITION: absolute; HEIGHT: 6px; opacity: 0.5
+}
+.noteEdit_handleN {
+	LEFT: 0px; MARGIN-LEFT: 49%; CURSOR: n-resize; TOP: -5px
+}
+.noteEdit_handleNE {
+	RIGHT: -5px; CURSOR: ne-resize; TOP: -5px
+}
+.noteEdit_handleE {
+	MARGIN-TOP: 49%; RIGHT: -5px; CURSOR: e-resize; TOP: 0px
+}
+.noteEdit_handleSE {
+	RIGHT: -5px; CURSOR: se-resize; BOTTOM: -5px
+}
+.noteEdit_handleS {
+	RIGHT: 0px; CURSOR: s-resize; BOTTOM: -5px; MARGIN-RIGHT: 49%
+}
+.noteEdit_handleSW {
+	LEFT: -5px; CURSOR: sw-resize; BOTTOM: -5px
+}
+.noteEdit_handleW {
+	MARGIN-TOP: 49%; LEFT: -5px; CURSOR: e-resize; TOP: 0px
+}
+.noteEdit_handleNW {
+	LEFT: -5px; CURSOR: nw-resize; TOP: -5px
+}
+.fader A IMG {
+	BORDER-RIGHT: #ffffff 3px solid; BORDER-TOP: #ffffff 3px solid; MARGIN: 2px; VERTICAL-ALIGN: bottom; BORDER-LEFT: #ffffff 3px solid; BORDER-BOTTOM: #ffffff 3px solid
+}
+.fader A:hover IMG {
+	BORDER-LEFT-COLOR: #ff6600; BORDER-BOTTOM-COLOR: #ff6600; BORDER-TOP-COLOR: #ff6600; BORDER-RIGHT-COLOR: #ff6600
+}
+.fader A:hover {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.fader2 A IMG {
+	BORDER-RIGHT: #ffffff 2px solid; BORDER-TOP: #ffffff 2px solid; MARGIN: 0px; VERTICAL-ALIGN: bottom; BORDER-LEFT: #ffffff 2px solid; BORDER-BOTTOM: #ffffff 2px solid
+}
+.fader2 A:hover IMG {
+	BORDER-LEFT-COLOR: #ff6600; BORDER-BOTTOM-COLOR: #ff6600; BORDER-TOP-COLOR: #ff6600; BORDER-RIGHT-COLOR: #ff6600
+}
+.fader2 A:hover {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#navexplore A {
+	FONT-SIZE: 18px; COLOR: #fff; FONT-STYLE: italic; TEXT-DECORATION: none
+}
+#navexplore A:hover {
+	TEXT-DECORATION: underline
+}
+.emptybucket {
+	HEIGHT: 75px
+}
+SPAN.action {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; CURSOR: pointer; COLOR: #ff0000; PADDING-TOP: 2px; TEXT-DECORATION: underline
+}
+.overbucket {
+	BACKGROUND-COLOR: #ffff00
+}
+.bucketimg {
+	BORDER-RIGHT: #d7d7d7 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #d7d7d7 1px solid; PADDING-LEFT: 2px; FLOAT: left; PADDING-BOTTOM: 2px; MARGIN: 2px; OVERFLOW: hidden; BORDER-LEFT: #d7d7d7 1px solid; WIDTH: 110px; CURSOR: move; PADDING-TOP: 2px; BORDER-BOTTOM: #d7d7d7 1px solid; HEIGHT: 130px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+UNKNOWN {
+	HEIGHT: 125px
+}
+.bucketimg DIV {
+	BACKGROUND-POSITION: center center; MARGIN: 0px auto 2px; WIDTH: 100px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 105px; BACKGROUND-COLOR: transparent
+}
+.bucketfile {
+	BORDER-RIGHT: #d7d7d7 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #d7d7d7 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 2px; OVERFLOW: hidden; BORDER-LEFT: #d7d7d7 1px solid; CURSOR: move; PADDING-TOP: 2px; BORDER-BOTTOM: #d7d7d7 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.bucketfile H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; MARGIN: 0px; COLOR: #333333
+}
+.bucketfile DIV {
+	MARGIN-LEFT: 55px; BACKGROUND-COLOR: transparent
+}
+.sel {
+	BORDER-RIGHT: #ff0000 1px solid; BORDER-TOP: #ff0000 1px solid; BORDER-LEFT: #ff0000 1px solid; BORDER-BOTTOM: #ff0000 1px solid
+}
+.filesize {
+	PADDING-LEFT: 5px; FONT-SIZE: 10px; COLOR: #888888
+}
+.libraryimg {
+	BORDER-RIGHT: #d7d7d7 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #d7d7d7 1px solid; PADDING-LEFT: 2px; FLOAT: left; PADDING-BOTTOM: 2px; MARGIN: 2px; BORDER-LEFT: #d7d7d7 1px solid; CURSOR: move; PADDING-TOP: 2px; BORDER-BOTTOM: #d7d7d7 1px solid; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.libraryimg IMG {
+	DISPLAY: block; MARGIN-BOTTOM: 1px
+}
+.libraryfile {
+	BORDER-RIGHT: #d7d7d7 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #d7d7d7 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 2px; OVERFLOW: hidden; BORDER-LEFT: #d7d7d7 1px solid; CURSOR: move; PADDING-TOP: 2px; BORDER-BOTTOM: #d7d7d7 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.libraryfile IMG {
+	HEIGHT: 25px
+}
+.clearfix:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.clearfix {
+	
+}
+ HTML .clearfix {
+	HEIGHT: 1%
+}
+.clearfix {
+	DISPLAY: block
+}
+.title {
+	BORDER-RIGHT: #e7e3df 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #e7e3df 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; MARGIN: 0px; BORDER-LEFT: #e7e3df 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #e7e3df 1px solid; BACKGROUND-COLOR: #e7e3df
+}
+.stepsContainer {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #dddddd 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #dddddd 1px solid; BORDER-COLLAPSE: separate; border-spacing: 4px
+}
+.stepLabel {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #ff5200
+}
+.stepTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #333333
+}
+.editButton {
+	MARGIN: 0px 0px 14px
+}
+.editButton A {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; BACKGROUND-COLOR: #ccff66
+}
+.stepInstructions {
+	FONT-WEIGHT: normal; FONT-SIZE: 16px; COLOR: #e0a149; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.editForms {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; MARGIN: 0px 0px 7px; PADDING-TOP: 7px; BACKGROUND-COLOR: #ebffc2
+}
+.editForms H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 16px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 2px 2px; COLOR: #333333; PADDING-TOP: 0px
+}
+A.DropBox {
+	BORDER-RIGHT: #8dad24 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #8dad24 1px solid; DISPLAY: block; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 16px; BACKGROUND-IMAGE: url(/static/IMGS/dropDownBG.gif); PADDING-BOTTOM: 3px; BORDER-LEFT: #8dad24 1px solid; COLOR: #333333; PADDING-TOP: 3px; BORDER-BOTTOM: #8dad24 1px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #cdfd35; TEXT-ALIGN: left
+}
+A.DropBox:hover {
+	BACKGROUND-IMAGE: url(/static/IMGS/dropDownBG-over.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #e6ff9a; TEXT-DECORATION: none
+}
+SPAN.help {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; CURSOR: help; COLOR: #857561; TEXT-DECORATION: none
+}
+.floaterLINK {
+	BORDER-RIGHT: #c2bab0 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #c2bab0 1px solid; PADDING-LEFT: 2px; FLOAT: left; PADDING-BOTTOM: 2px; MARGIN: 1px; OVERFLOW: hidden; BORDER-LEFT: #c2bab0 1px solid; WIDTH: 48px; PADDING-TOP: 2px; BORDER-BOTTOM: #c2bab0 1px solid; WHITE-SPACE: nowrap
+}
+.floaterLINK IMG {
+	DISPLAY: block
+}
