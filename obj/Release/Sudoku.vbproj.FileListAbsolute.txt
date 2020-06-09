@@ -1,0 +1,10 @@
+D:\Vijay\Sudoku\obj\Release\Sudoku.exe
+D:\Vijay\Sudoku\bin\Sudoku.exe.config
+D:\Vijay\Sudoku\bin\Sudoku.exe
+D:\Vijay\Sudoku\bin\Sudoku.xml
+D:\Vijay\Sudoku\obj\Release\ResolveAssemblyReference.cache
+D:\Vijay\Sudoku\obj\Release\Sudoku.Form1.resources
+D:\Vijay\Sudoku\obj\Release\GenerateResource.read.1.tlog
+D:\Vijay\Sudoku\obj\Release\GenerateResource.write.1.tlog
+D:\Vijay\Sudoku\obj\Release\Sudoku.xml
+D:\Vijay\Sudoku\obj\Release\Sudoku.Resources.resources
